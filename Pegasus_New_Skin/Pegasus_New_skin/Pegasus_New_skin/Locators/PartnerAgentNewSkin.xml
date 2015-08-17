@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnPartnerAgent><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[4]/a]]></ClickOnPartnerAgent>
+  <ClickOnaAgentCreate><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnaAgentCreate>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='PartnerAgentSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='PartnerAgentFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='PartnerAgentLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='PartnerAgentBirthday']]]></BirthDay>
+  <DBAName><![CDATA[//*[@id='PartnerAgentDba']]]></DBAName>
+  <LinkedInUrl><![CDATA[//*[@id='PartnerAgentLinkedinUrl']]]></LinkedInUrl>
+  <FaceBookUrl><![CDATA[//*[@id='PartnerAgentFacebookUrl']]]></FaceBookUrl>
+  <Website1><![CDATA[//*[@id='PartnerAgentWebsite']]]></Website1>
+  <TwitterURL><![CDATA[//*[@id='PartnerAgentTwitterUrl']]]></TwitterURL>
+  <SelectLanguage><![CDATA[//*[@id='PartnerAgentLanguage']]]></SelectLanguage>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='PartnerAgentPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='PartnerAgentPhone0PhoneNumber']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='PartnerAgentAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='PartnerAgentAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='PartnerAgentAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='PartnerAgentAddress0City']]]></City>
+  <State><![CDATA[//*[@id='PartnerAgentAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='PartnerAgentAddress0PostalCode']]]></PostalCode>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnAvatar><![CDATA[//div[@class='row']/div[3]/ul/li/input]]></ClickOnAvatar>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='PartnerAgentAgentCreateForm']/div[2]/div[7]/div/a[1]/span[2]]]></SaveAGENTbtn>
+  <PrtnerAgentCntry><![CDATA[//*[@id='PartnerAgentAddress0Country']]]></PrtnerAgentCntry>
+  <ClickMiddleName><![CDATA[//*[@id='PartnerAgentMiddleName']]]></ClickMiddleName>
+  <Extension><![CDATA[//*[@id='PartnerAgentPhone0PhoneExtension']]]></Extension>
+  <PasswordAtoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></PasswordAtoGenerate>
+  <PasswordAcc><![CDATA[//*[@id='UserPassword']]]></PasswordAcc>
+
+  <!--SEARCH USER AT ADMIN SIDE-->
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnOffice><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnOffice>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  <!--Verify Email At Yop Mail-->
+  <EnterYopMailId><![CDATA[//*[@id='login']]]></EnterYopMailId>
+  <ClickOnNewEmailBtn><![CDATA[//input[@value='Check Inbox']]]></ClickOnNewEmailBtn>
+
+  <!--NEW SKIN-->
+  <ClickOnAgentTab><![CDATA[//a[@title='Agents']]]></ClickOnAgentTab>
+  <SaleAgent><![CDATA[//a[@title='Sales Agents']]]></SaleAgent>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateBtn>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+
+  <!--SEARCH AGENT-->
+  <EnterAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterAgentName>
+  <SelectStatusAdjtmnt><![CDATA[//*[@id='gs_active']]]></SelectStatusAdjtmnt>
+  <ClikOnPartnerAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'agent/view')]]]></ClikOnPartnerAgent>
+  <OpenAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></OpenAgent>
+  <ClickOnCreatebtnAdjmnt><![CDATA[//a[contains(@href,'adjustments_tool/create')]]]></ClickOnCreatebtnAdjmnt>
+  <ClickOnSaleAgent><![CDATA[//*[@id='adjagent']]]></ClickOnSaleAgent>
+  <ClickSaleManager><![CDATA[//*[@id='adjmgr']]]></ClickSaleManager>
+  <!--CREATE ADJUSTMENT FOR SALE AGENT-->
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+
+
+  <ExcelReoprt><![CDATA[//div[@class='noprint pull-right']/table/tbody/tr/td/a/img[contains(@src,'excel')]]]></ExcelReoprt>
+  <TableData><![CDATA[//*[@id='report_container']/table/tbody/tr[1]/td[2]]]></TableData>
+
+  <LastLogon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_lastlogon']]]></LastLogon>
+  <EmployeeUsername><![CDATA[//*[@id='UserUserName']]]></EmployeeUsername>
+  <EmployeeEmail><![CDATA[//*[@id='UserVerificationEmail']]]></EmployeeEmail>
+  <EmployeeFirst><![CDATA[//*[@id='CorporateUserFirstName']]]></EmployeeFirst>
+  <EmployeeLast><![CDATA[//*[@id='CorporateUserLastName']]]></EmployeeLast>
+  <EmployeeCheck><![CDATA[//*[@id='245']]]></EmployeeCheck>
+  <EmployeePhone><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber']]]></EmployeePhone>
+  <EmployeeEAddress><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent']]]></EmployeeEAddress>
+  <EmployeeSave><![CDATA[//input[@value='Save']]]></EmployeeSave>
+
+  <OfficeName><![CDATA[//*[@id='OrganizationName']]]></OfficeName>
+  <OfficeAddress1><![CDATA[//*[@id='OrganizationAddress0AddressLine1']]]></OfficeAddress1>
+  <OfficeCity><![CDATA[//*[@id='OrganizationAddress0City']]]></OfficeCity>
+  <OfficeCountry><![CDATA[//*[@id='OrganizationAddress0Country']]]></OfficeCountry>
+  <OfficeState><![CDATA[//*[@id='OrganizationAddress0State']]]></OfficeState>
+  <OfficeUsername><![CDATA[//*[@id='UserUserName']]]></OfficeUsername>
+  <OfficeAutoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></OfficeAutoGenerate>
+  <OfficePassword><![CDATA[//*[@id='UserPassword']]]></OfficePassword>
+  <OfficeFirstName><![CDATA[//*[@id='EmployeeFirstName']]]></OfficeFirstName>
+  <OfficeLastName><![CDATA[//*[@id='EmployeeLastName']]]></OfficeLastName>
+  <OfficeEAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></OfficeEAddress>
+  <OfficeSave><![CDATA[//button[@title='Save']]]></OfficeSave>
+
+  <Yopmail><![CDATA[//*[@id='login']]]></Yopmail>
+  <YopmailClick><![CDATA[//input[@value='Check Inbox']]]></YopmailClick>
+  <OfficeMail><![CDATA[//span[contains(text(),'Pegasus: Office Created')]]]></OfficeMail>
+  <UserMail><![CDATA[//span[contains(text(),'New User Account')]]]></UserMail>
+  <OfficeLink><![CDATA[//a[contains(@href,'https://www.pegasus-test.com/userVerification')]]]></OfficeLink>
+  <NewDashboard><![CDATA[//*[@id='menu']/li[1]/a/i]]></NewDashboard>
+  <UserDisable><![CDATA[//a[@title='Disable this user']]]></UserDisable>
+  <DisableArea><![CDATA[//*[@id='UserEmployeeViewForm']/div/textarea]]></DisableArea>
+  <UserOverlayDisable><![CDATA[//*[@id='UserEmployeeViewForm']/div/input[@value='Disable']]]></UserOverlayDisable>
+  <NewDashboard1><![CDATA[//*[@id='menu']/li[3]/a/span[1]]]></NewDashboard1>
+
+  <TemplateCreate><![CDATA[//a[@title='Add New Template']]]></TemplateCreate>
+  <TemplateName><![CDATA[//*[@id='MetaFieldGroupingTemplateName']]]></TemplateName>
+  <TemplaceModule><![CDATA[//*[@id='MetaFieldGroupingTemplateZModuleId']]]></TemplaceModule>
+  <TemplateField><![CDATA[//*[@id='field_name']]]></TemplateField>
+  <TemplateAdd><![CDATA[//a[@onclick='addMoreField()']]]></TemplateAdd>
+  <TemplateDelete><![CDATA[//a[@title='Delete']]]></TemplateDelete>
+  <TemplateTab><![CDATA[//select[@id='tab']]]></TemplateTab>
+
+  <RMPProcessor><![CDATA[//*[@id='ResidualMasterProcessor']]]></RMPProcessor>
+  <RMPProcessorError><![CDATA[//*[@id='ResidualMasterProcessor-error']]]></RMPProcessorError>
+  <RMPSetName><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName']]]></RMPSetName>
+  <RMPSetNameError><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName-error']]]></RMPSetNameError>
+  <RMPSave><![CDATA[//a[@title='Save']]]></RMPSave>
+  <RMPRule><![CDATA[//select[@id='rule_type0']]]></RMPRule>
+  <RMPRuleField><![CDATA[//*[@id='amount_field0']]]></RMPRuleField>
+  <RMPRuleError><![CDATA[//*[@id='amount_field0-error']]]></RMPRuleError>
+  <RMPAddRule><![CDATA[//a[@id='addrule']]]></RMPAddRule>
+
+  <TSDropdown><![CDATA[//select[@id='assign0Owner']/option[2]]]></TSDropdown>
+
+  <FSChangeTab><![CDATA[//div[@id='section_area']/ol/li/ol/li[1]/div/span/a[@title='Change Tab']]]></FSChangeTab>
+  <FSSave><![CDATA[//*[@id='MetaSectionNameChangeOfficeTabForm']/div/div/div[@class='modal-footer']/button[1]]]></FSSave>
+
+  <FSModule><![CDATA[//*[@id='SearchFormModuleId']]]></FSModule>
+  <FSTab><![CDATA[//*[@id='SearchFormTabName']]]></FSTab>
+  <FSSearch><![CDATA[//button[@title='Search']]]></FSSearch>
+  <FSFilter><![CDATA[//*[@id='filter']]]></FSFilter>
+  <FSMail><![CDATA[//a[contains(text(),'Mail/Fax Chargeback/Retrievals to')]]]></FSMail>
+  <FSManage><![CDATA[//i[@class='fa fa-pencil']]]></FSManage>
+
+  <TicHover><![CDATA[//*[@id='menu']/li[8]/a[@title='Tickets']]]></TicHover>
+
+  <RPMAdjust><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></RPMAdjust>
+  <RPMName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></RPMName>
+  <RPMSpeficAgent><![CDATA[//*[@id='RirOrgMasterRulesetAgentIdTypeSpecific']]]></RPMSpeficAgent>
+  <RPMSelectAgent><![CDATA[//*[@id='select_agent']]]></RPMSelectAgent>
+  <RPMClose><![CDATA[//div[@class='modal-content']/div[1]/button]]></RPMClose>
+  <RPMSpeficMerchant><![CDATA[//*[@id='RirOrgMasterRulesetMerchantTypeSpecific']]]></RPMSpeficMerchant>
+  <RPMSelectMerchant><![CDATA[//*[@id='select_merchant']]]></RPMSelectMerchant>
+  <RPMSelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></RPMSelectProcessor>
+  <RPMFileFormat><![CDATA[//select[@id='RirOrgMasterRulesetFileFormat']]]></RPMFileFormat>
+  <RPMType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></RPMType>
+  <RPMPeriod><![CDATA[//select[@id='gs_reporting_period']]]></RPMPeriod>
+  <RPMCalender><![CDATA[//div[@class='datepicker-days']]]></RPMCalender>
+
+
+  <VerifyAccount><![CDATA[//a[contains(text(),'Verify My Account')]]]></VerifyAccount>
+  <VerifyUsername><![CDATA[//*[@id='UserEmailVerificationEmail']]]></VerifyUsername>
+  <VerifyBody><![CDATA[//*[@id='UserEmailVerificationEmailVerificationForm']/div[2]]]></VerifyBody>
+  <VerifySend><![CDATA[//*[@id='emailVerifybtn']]]></VerifySend>
+
+  <MerchantNumber><![CDATA[//a[contains(text(),'Merchant Numbers')]]]></MerchantNumber>
+  <MechantDinner><![CDATA[//*[@id='ClientDetailDinersID']]]></MechantDinner>
+  <MerchantAmex><![CDATA[//*[@id='ClientDetailAmexID']]]></MerchantAmex>
+
+  <LeadInput><![CDATA[//*[@id='vcard_file']]]></LeadInput>
+  <LeadImport><![CDATA[//input[@value='Import']]]></LeadImport>
+
+  <UserSelectCount><![CDATA[//select[@role='listbox']]]></UserSelectCount>
+
+  <AddressEdit><![CDATA[//a[@title='Edit Profile']]]></AddressEdit>
+  <AddressTypeDropdown><![CDATA[//select[@id='EmployeeAddress0Type']]]></AddressTypeDropdown>
+
+  <TicketOpen><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'selcorp/seloffice/tickets')]]]></TicketOpen>
+  <TicketEdit><![CDATA[//*[@id='add_comments']]]></TicketEdit>
+  <TicketComment><![CDATA[//div[@id='dialog_comments']/div/div/div/form/div[@class='modal-body']/div/textarea[@id='TicketCommentDescription']]]></TicketComment>
+  <TicketCommentSave><![CDATA[//div[@id='dialog_comments']/div/div/div/form/div[@class='modal-footer']/input]]></TicketCommentSave>
+  <TicketCommentDelete><![CDATA[//*[@id='commentbox']/div[2]/div/div/div/span/a[@title='Delete Comment']]]></TicketCommentDelete>
+
+  <ProcessorDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Delete Processor']]]></ProcessorDelete>
+
+  <OfficeSave><![CDATA[//button[@title='Save']]]></OfficeSave>
+  <OfficeFDN><![CDATA[//*[@id='OrganizationFdnAgentNumber-error']]]></OfficeFDN>
+
+  <LanguageCreate><![CDATA[//a[@title='Add New Language']]]></LanguageCreate>
+  <LanguageName><![CDATA[//*[@id='CorporateLanguageName']]]></LanguageName>
+  <LanguageSave><![CDATA[//*[@id='CorporateLanguageCorpLanguagesForm']/div/div/a[@title='Save']]]></LanguageSave>
+  <LanguageEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit this row']]]></LanguageEdit>
+  <LanguageBlank><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@class='editable']]]></LanguageBlank>
+  <LanguageSave1><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Save this row']]]></LanguageSave1>
+  <LanguageClose><![CDATA[//*[@id='closedialog']]]></LanguageClose>
+  <LanguageCancel><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Restore this row']]]></LanguageCancel>
+  <LanguageDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Delete this row']]]></LanguageDelete>
+  <LanguageOK><![CDATA[//*[@id='dData']]]></LanguageOK>
+
+  <Usertype><![CDATA[//*[@id='UserType']]]></Usertype>
+  <UserCreate><![CDATA[//*[@id='EmployeeCreatenew1']]]></UserCreate>
+  <UserEmail><![CDATA[//*[@id='EmployeePrimaryEmail']]]></UserEmail>
+  <Userusername><![CDATA[//*[@id='UserUserName']]]></Userusername>
+  <UserFirstName><![CDATA[//*[@id='EmployeeFirstName']]]></UserFirstName>
+  <UserLastName><![CDATA[//*[@id='EmployeeLastName']]]></UserLastName>
+  <UserSave><![CDATA[//input[@title='Save']]]></UserSave>
+  <UserCheckNotCheck><![CDATA[//*[@id='UserPassword' and @readonly='readonly']]]></UserCheckNotCheck>
+  <UserAutoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></UserAutoGenerate>
+  <UserPassword><![CDATA[//*[@id='UserPassword']]]></UserPassword>
+
+  <Website><![CDATA[//*[@id='hide_cols']/optgroup[1]/option[contains(text(),'Website')]]]></Website>
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <LastByActivity><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Last Activity By')]]]></LastByActivity>
+  <LastByShow><![CDATA[//*[@id='display_cols']/option[contains(text(),'Last Activity By')]]]></LastByShow>
+  <AddArrow><![CDATA[//*[@id='btn-add']/span]]></AddArrow>
+  <RemoveArrow><![CDATA[//*[@id='btn-remove']/span]]></RemoveArrow>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+
+  <ProfileDefault><![CDATA[//img[@src='https://www.pegasus-test.com/img/default.jpgimagecache/120x90_default.jpg']]]></ProfileDefault>
+  <ProfileEdit><![CDATA[//a[@title='Edit Profile']]]></ProfileEdit>
+  <UploadImage><![CDATA[//*[@id='EmployeeProfileImage']]]></UploadImage>
+
+  <CorpProfile><![CDATA[//a[@title='Edit Corporate Details']]]></CorpProfile>
+  <LogoDefault><![CDATA[//img[@src='https://www.pegasus-test.com/img/default.jpgimagecache/120x90_default.jpg']]]></LogoDefault>
+  <UploadLogo><![CDATA[//*[@id='CorporateLogoUrl']]]></UploadLogo>
+
+  <NameStar><![CDATA[//label[contains(text(),'Name')]/span[text()='*']]]></NameStar>
+  <ModuleStar><![CDATA[//label[contains(text(),'Module')]/span[text()='*']]]></ModuleStar>
+
+  <ComDetails><![CDATA[//a[text()='Company Details']]]></ComDetails>
+  <DBAerror><![CDATA[//*[@id='ClientDetailCompanyDbaName-error']]]></DBAerror>
+  <DBAMandatory><![CDATA[//label[contains(text(),'Company DBA Name')]/span[text()='*']]]></DBAMandatory>
+
+  <MerchantNumber><![CDATA[//a[text()='Merchant Numbers']]]></MerchantNumber>
+  <MerchantNumberHighlighted><![CDATA[//a[text()='Merchant Numbers' and @aria-expanded='true']]]></MerchantNumberHighlighted>
+  <CustomerRelationHighlighted><![CDATA[//a[text()='Customer Relationship' and @aria-expanded='true']]]></CustomerRelationHighlighted>
+
+  <CustomerRelation><![CDATA[//a[text()='Customer Relationship']]]></CustomerRelation>
+  <Terminals><![CDATA[//a[text()='Terminals & Equipments']]]></Terminals>
+  <TerminalsHighlighted><![CDATA[//a[text()='Terminals & Equipments' and @aria-expanded='true']]]></TerminalsHighlighted>
+  <Products><![CDATA[//a[text()='Products']]]></Products>
+  <ProductsHighlighted><![CDATA[//a[text()='Products' and @aria-expanded='true']]]></ProductsHighlighted>
+
+  <PegResult><![CDATA[//*[@id='pageresults']/option[text()='1000']]]></PegResult>
+
+  <OpenUser><![CDATA[//table[@id='list1']/tbody/tr/td/a[text()='Aslam Khan']]]></OpenUser>
+  <ManageUser><![CDATA[//div[@class='col-lg-4']]]></ManageUser>
+
+  <PDFImage><![CDATA[//*[@id='attachtypePdf']]]></PDFImage>
+  <OpenClient><![CDATA[//table[@id='list1']/tbody/tr/td/a[contains(text(),'Chy')]]]></OpenClient>
+  <LocationOffice><![CDATA[//*[@id='ClientDetailInternationalLocation']]]></LocationOffice>
+  <ViewTrans><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td/a[@title='View Transactions']]]></ViewTrans>
+
+  <Client><![CDATA[//table[@id='list1']/tbody/tr/td/a[contains(text(),'Chy')]]]></Client>
+  <ClientIncome><![CDATA[//a[text()='Residual Income']]]></ClientIncome>
+  <PartnerShare><![CDATA[//*[@id='partner_association_share']/span]]></PartnerShare>
+  <ParnterShareInput><![CDATA[//*[@id='partner_association_share']/form/input]]></ParnterShareInput>
+  <PartnerShareSave><![CDATA[//*[@id='partner_association_share']/form/button[1]]]></PartnerShareSave>
+  <PartnerShareDelete><![CDATA[//div[@class='col-lg-5']/div/a[@title='Remove Revenue Share']]]></PartnerShareDelete>
+  <PartnerAgent><![CDATA[//*[@id='partner_agent_share']/span]]></PartnerAgent>
+  <PartnerAgentInput><![CDATA[//*[@id='partner_agent_share']/form/input]]></PartnerAgentInput>
+  <PartternAgentSave><![CDATA[//*[@id='partner_agent_share']/form/button[1]]]></PartternAgentSave>
+
+  <TotalSales><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Total Sales $')]]]></TotalSales>
+  <TotalTrans><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Total Sales Transactions #')]]]></TotalTrans>
+  <Exp><![CDATA[//*[@id='exportactions']]]></Exp>
+  <ExpCSV><![CDATA[//*[@id='export_csv']]]></ExpCSV>
+
+  <RemTotalSales><![CDATA[//*[@id='display_cols']/option[contains(text(),'Total Sales $')]]]></RemTotalSales>
+  <RemTotalTrans><![CDATA[//*[@id='display_cols']/option[contains(text(),'Total Sales Transactions #')]]]></RemTotalTrans>
+
+  <ClientStatus><![CDATA[//*[@id='ClientStatus']]]></ClientStatus>
+  <ClientRespo><![CDATA[//*[@id='ClientAssignedUserId']]]></ClientRespo>
+  <ClientCompany><![CDATA[//a[text()='Company Details']]]></ClientCompany>
+  <ClientDBAName><![CDATA[//*[@id='ClientDetailCompanyDbaName']]]></ClientDBAName>
+  <ClientLegalName><![CDATA[//*[@id='ClientDetailCompanyLegalName']]]></ClientLegalName>
+
+  <EmailVerification><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent-error']]]></EmailVerification>
+  <EmailVendor><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent']]]></EmailVendor>
+  <ActivatePDF><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'makeActiveInactive')]]]></ActivatePDF>
+  <VerifyInactive><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a/i[contains(@class,'thumbs-o-up')]]]></VerifyInactive>
+  <ViewClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'clients')]]]></ViewClient>
+  <SelectList><![CDATA[//select[@class='ui-pg-selbox']]]></SelectList>
+  <ClPdf><![CDATA[//a[contains(text(),'PDFs')]]]></ClPdf>
+  <Astric><![CDATA[//span[text()='*']]]></Astric>
+  <SelOffice><![CDATA[//*[@id='left']/div[2]/div/span[2]/a]]></SelOffice>
+
+  <SendMail><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[4]/a/img]]></SendMail>
+  <MailSend><![CDATA[//button[@title='Send']]]></MailSend>
+
+  <OpenOpportunities><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_opportunity_name']/a]]></OpenOpportunities>
+  <AddNote><![CDATA[//*[@id='addnote1']]]></AddNote>
+  <NoteError><![CDATA[//*[@id='NoteName-error']]]></NoteError>
+
+  <OpenDoc><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'documents')]]]></OpenDoc>
+  <Trash><![CDATA[//a[@title='Delete Document']]]></Trash>
+  <TraFile><![CDATA[//*[@id='TransactionFileCustomColNames']]]></TraFile>
+  <ProcessorOption><![CDATA[//*[@id='hide_cols']/option[text()='Processor']]]></ProcessorOption>
+  <VerifyProcessorAvail><![CDATA[//*[@id='jqgh_list1_processor']]]></VerifyProcessorAvail>
+
+  <EditPartnerAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit Partner']]]></EditPartnerAgent>
+  <ClikcEditSave><![CDATA[]]></ClikcEditSave>
+  <EnterCodep><![CDATA[]]></EnterCodep>
+  <RevenueSahrnepartneragent><![CDATA[//a[@title='Revenue Shares']]]></RevenueSahrnepartneragent>
+  <AddANewAgentRevenueSahre><![CDATA[//a[@title='Add a New Agent Revenue Share']]]></AddANewAgentRevenueSahre>
+  <ClickONbUTTONtOvIEW><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickONbUTTONtOvIEW>
+  <SelectPartnerAgnetRS><![CDATA[//*[@id='PartnerAgentCodesShareProcessor']]]></SelectPartnerAgnetRS>
+  <EnterPartnerCode><![CDATA[//*[@id='PartnerAgentCodesShareAgentCode']]]></EnterPartnerCode>
+  <RevenueShare><![CDATA[//*[@id='PartnerAgentCodesShareRevenueShare']]]></RevenueShare>
+  <ClickOnSaveRS><![CDATA[//form[@id='PartnerAgentCodesShareAgentsRevenueShareForm']/div[@class='modal-footer']/a[1]]]></ClickOnSaveRS>
+  <SearchDeciaml><![CDATA[//*[@id='gs_revenue_share']]]></SearchDeciaml>
+  <VerifyValueInDecimal><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_revenue_share']]]></VerifyValueInDecimal>
+</Locators>

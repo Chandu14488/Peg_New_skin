@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickOnTicketTab><![CDATA[//a[@title='Tickets']]]></ClickOnTicketTab>
+  <ClickOnCreateButton><![CDATA[//*[@id='page-wrapper']/div[3]/div[2]/a[5]/button]]></ClickOnCreateButton>
+  <EnterTicketName><![CDATA[//*[@id='TicketName']]]></EnterTicketName>
+  <ClickOnClientDisplayIcon><![CDATA[//*[@id='assignrecord']/i]]></ClickOnClientDisplayIcon>
+  <ClickOnClient><![CDATA[//table[@class='table table-hover table-mail']/tbody/tr[1]/td[2]/a]]></ClickOnClient>
+  <ClickOnSaveTicket><![CDATA[//div[@class='col-lg-4 form-bttns-align']/button[@title='Save']]]></ClickOnSaveTicket>
+  <SearchTicket><![CDATA[//*[@id='gs_name']]]></SearchTicket>
+  <ClickOnTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></ClickOnTicket>
+  <ClickEditTicketBtn><![CDATA[//*[@id='edit_button']]]></ClickEditTicketBtn>
+  <ClickDeleteBtn><![CDATA[//*[@id='delete_button']]]></ClickDeleteBtn>
+  <ClickResolvedBtn><![CDATA[//*[@id='resolve_button']]]></ClickResolvedBtn>
+  <ClickOnTicket1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></ClickOnTicket1>
+  <SelectTicketResolution><![CDATA[//*[@id='TicketResolution']]]></SelectTicketResolution>#Issue Resolved
+  <ClosedTicket><![CDATA[//*[@id='close_button']/i]]></ClosedTicket>
+  <VerifyTextResolver><![CDATA[//table[@id='list1']/tbody/tr[2]/td[23]/div[contains(@style,'img')]]]></VerifyTextResolver>
+  <ClickResolvedSaveBtn><![CDATA[//form[@id='AddResolutinForm']/div[4]/input[@value='Save']]]></ClickResolvedSaveBtn>
+
+</Locators>

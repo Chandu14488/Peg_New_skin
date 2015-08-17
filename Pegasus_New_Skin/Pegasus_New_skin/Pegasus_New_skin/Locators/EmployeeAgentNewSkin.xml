@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnEmployees><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[2]/a]]></ClickOnEmployees>
+  <ClickOnaCreateEmployeeBtn><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnaCreateEmployeeBtn>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='EmployeeFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='EmployeeBirthday']]]></BirthDay>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='EmployeePhone0PhoneNumber']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></PostalCode>
+  //###################### Department Role Team
+  <ClickOnDeppartmentTeam><![CDATA[//*[@id='deptboximg']]]></ClickOnDeppartmentTeam>
+  <SelectDepartment><![CDATA[//*[@id='EmployeeOrgDeptId']]]></SelectDepartment>
+  <SelectRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></SelectRole>
+  <PrimaryTeam><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></PrimaryTeam>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnSAvatarBtn><![CDATA[//*[@id='1098']]]></ClickOnSAvatarBtn>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='EmployeeCreateEmployeeForm']/div[2]/div[6]/div[3]/div/a[1]/span[2]]]></SaveAGENTbtn>
+  <SelectCountry><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountry>
+  <EnterMiddleName><![CDATA[//*[@id='EmployeeMiddleName']]]></EnterMiddleName>
+  <EnterExtension><![CDATA[//*[@id='EmployeePhone0PhoneExtension']]]></EnterExtension>
+  <EnterAddLine2><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></EnterAddLine2>
+  <CheckAutoPassOff><![CDATA[//*[@id='UserAutogenerate']]]></CheckAutoPassOff>
+  <EnterPassword><![CDATA[//*[@id='UserPassword']]]></EnterPassword>
+
+
+  <!--NEW SKIN-->
+  <ClickOnAgentTab><![CDATA[//a[@title='Agents']]]></ClickOnAgentTab>
+  <SaleAgent><![CDATA[//a[@title='Sales Agents']]]></SaleAgent>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateBtn>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+
+  <!--SEARCH AGENT-->
+  <EnterAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterAgentName>
+  <SelectStatusAdjtmnt><![CDATA[//*[@id='gs_active']]]></SelectStatusAdjtmnt>
+  <ClikOnEmployeeAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_contactNm']/a]]></ClikOnEmployeeAgent>
+  <ClickOnCreatebtnAdjmnt><![CDATA[//div[@title='Create']]]></ClickOnCreatebtnAdjmnt>
+  <ClickOnSaleAgent><![CDATA[//a[@title='Sales Agent']]]></ClickOnSaleAgent>
+  <ClickSaleManager><![CDATA[//a[@title='Sales Manager']]]></ClickSaleManager>
+  <!--CREATE ADJUSTMENT FOR SALE AGENT-->
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+
+  <!--VIEW ADJUSTMENT-->
+  <ClickonResidualIncometab><![CDATA[//a[@title='Residual Income']]]></ClickonResidualIncometab>
+  <ClickOnMasterdata><![CDATA[//a[@title='Master Data']]]></ClickOnMasterdata>
+  <EnterAdjustmentNameSrch><![CDATA[//*[@id='gs_rule_name']]]></EnterAdjustmentNameSrch>
+  <EnterScrhAdjustmentFor><![CDATA[//*[@id='gs_adjustment_for']]]></EnterScrhAdjustmentFor>
+  <ClickAdjustmentName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_rule_name']/a]]></ClickAdjustmentName>
+  
+
+
+
+
+
+
+
+
+</Locators>

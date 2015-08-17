@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  //####################  OFFICE TAB
+  <ClickOnOfficeTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnOfficeTab>
+  <CreateNewbtn><![CDATA[//*[@id='ui_buttons']/span]]></CreateNewbtn>
+  //###################  CREATE OFFICE
+  <Name><![CDATA[//*[@id='OrganizationName']]]></Name>"
+  <DBAName><![CDATA[//*[@id='OrganizationDba']]]></DBAName>
+  <Website><![CDATA[//*[@id='OrganizationWebsite']]]></Website>
+  <OfficeCode><![CDATA[//*[@id='OrganizationSalesId']]]></OfficeCode>
+  <SysPrinNumber><![CDATA[//*[@id='OrganizationSalesCode']]]></SysPrinNumber>
+  <FDNAgentNummber><![CDATA[//*[@id='OrganizationFdnAgentNumber']]]></FDNAgentNummber>
+  <STWShortName><![CDATA[//*[@id='OrganizationStwShortName']]]></STWShortName>
+  <AssocaitionId><![CDATA[//*[@id='OrganizationStwAssociationId']]]></AssocaitionId>
+  <STWTransFreedomCode><![CDATA[//*[@id='OrganizationStwTransfreedomAssociationId']]]></STWTransFreedomCode>
+  <OfficeCommanEmail><![CDATA[//*[@id='OrganizationEmail']]]></OfficeCommanEmail>
+  <VenderName><![CDATA[//*[@id='OrganizationVendorName']]]></VenderName>
+  <VenderCode><![CDATA[//*[@id='OrganizationVendorCode']]]></VenderCode>
+  <OfficephoneNumber><![CDATA[//*[@id='OrganizationPhoneFormat']]]></OfficephoneNumber>
+  <BusinessPhoneNumber><![CDATA[//*[@id='OrganizationTollFreeFormat']]]></BusinessPhoneNumber>
+  <FaxNumber><![CDATA[//*[@id='OrganizationFaxFormat']]]></FaxNumber>
+  <LinkedURL><![CDATA[//*[@id='OrganizationLinkedinUrl']]]></LinkedURL>
+  <FacebookURL><![CDATA[//*[@id='OrganizationFacebookUrl']]]></FacebookURL>
+  <TwitterURL><![CDATA[//*[@id='OrganizationTwitterUrl']]]></TwitterURL>
+  //############################ ADDRESS
+  <AddressType><![CDATA[//*[@id='OrganizationAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='OrganizationAddress0AddressLine1']]]></AddressLine1>
+  <CITY><![CDATA[//*[@id='OrganizationAddress0City']]]></CITY>
+  <SelectState><![CDATA[//*[@id='OrganizationAddress0State']]]></SelectState>
+  <ZipCode><![CDATA[//*[@id='OrganizationAddress0PostalCode']]]></ZipCode>
+  //################## PRIMARY USER CONTACT INFORMATION
+  <PrimaryUserName><![CDATA[//*[@id='UserUserName']]]></PrimaryUserName>
+  <AutoGenPassword><![CDATA[//*[@id='UserAutogenerate']]]></AutoGenPassword>
+  <PrimaryPassword><![CDATA[//*[@id='UserPassword']]]></PrimaryPassword>
+  //############ USER DEATAILS
+  <Salutation><![CDATA[//*[@id='EmployeeSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='EmployeeFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  //############## E-MAIL
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  //############# PHONE
+  <PhoneNumber><![CDATA[//*[@id='EmployeePhone0PhoneFormat']]]></PhoneNumber>
+  //################  SAVE
+  <ClickOnSaveBtn><![CDATA[//*[@id='OrganizationCreateForm']/div[2]/div[2]/a[1]/span[2]]]></ClickOnSaveBtn>
+  <country><![CDATA[//*[@id='OrganizationAddress0Country']]]></country>
+  
+</Locators>
+

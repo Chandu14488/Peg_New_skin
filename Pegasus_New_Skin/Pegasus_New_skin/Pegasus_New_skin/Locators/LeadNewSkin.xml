@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <SelectSalutation><![CDATA[//*[@id='LeadDetailSalutation']]]></SelectSalutation>
+  <LastName><![CDATA[//*[@id='LeadDetailLastName']]]></LastName>
+  <Title><![CDATA[//*[@id='LeadDetailTitle']]]></Title>
+  <MCCSICCode><![CDATA[//*[@id='LeadDetailBusinessDetailSicCode']]]></MCCSICCode>
+  <CreditScore><![CDATA[//*[@id='LeadDetailBusinessDetailCreditScore']]]></CreditScore>
+  <NumberOfEmployee><![CDATA[//*[@id='LeadDetailNoOfEmployees']]]></NumberOfEmployee>
+  <Language><![CDATA[//*[@id='LeadDetailLanguage']]]></Language>
+  <HowUHearAboutUs><![CDATA[//*[@id='LeadDetailHowHeard']]]></HowUHearAboutUs>
+  <ProductDescription><![CDATA[//*[@id='LeadDetailBusinessDetailGoodsSold']]]></ProductDescription>
+  // #########  WHAT IS MOST LIKELY METHOD
+  <ManuallySkippedAtRetailShop><![CDATA[//*[@id='LeadDetailCompanyDetailMethodCard1']]]></ManuallySkippedAtRetailShop>
+  <SwipedAtResturent><![CDATA[//*[@id='LeadDetailCompanyDetailMethodCard2']]]></SwipedAtResturent>
+  <ByPhoneOrThroughMailOredr><![CDATA[//*[@id='LeadDetailCompanyDetailMethodCard4']]]></ByPhoneOrThroughMailOredr>
+  //###############  HOW MUCH YOU CURRENTLY ACCEPT  ###########################
+  <FivetoTen><![CDATA[//*[@id='LeadDetailBusinessDetailProjectedMonthly10000']]]></FivetoTen>
+  //################### WHAT IS OR DO YOU ANTICIPATE  ##################
+  <fifteenTransaction><![CDATA[//*[@id='LeadDetailBusinessDetailAvgTicket50']]]></fifteenTransaction>
+  //####### phone
+  <SelectPhoneType><![CDATA[//*[@id='LeadDetailPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='LeadDetailPhone0PhoneFormat']]]></PhoneNumber>
+  //####### EMAIL AND INTERNET
+  <SelectEmailType><![CDATA[//*[@id='LeadDetailElectronicAddress0ElectronicContentType']]]></SelectEmailType>
+  <Eaddrress><![CDATA[//*[@id='LeadDetailElectronicAddress0ElectronicContent']]]></Eaddrress>
+  //################# ADDRESS
+  <AddressLine1><![CDATA[//*[@id='LeadDetailAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='LeadDetailAddress0City']]]></City>
+  <AddressState><![CDATA[//*[@id='LeadDetailAddress0State']]]></AddressState>
+  <ZipCode><![CDATA[//*[@id='LeadDetailAddress0PostalCode']]]></ZipCode>
+  <DoNotSolicit><![CDATA[//*[@id='ContactAddress0DoNotSolicit']]]></DoNotSolicit>
+  <AddRemark><![CDATA[//*[@id='address_add_link0']]]></AddRemark>
+  <RemarkText><![CDATA[//*[@id='LeadDetailAddress0Description']]]></RemarkText>
+  <LeadCounty><![CDATA[//*[@id='LeadDetailAddress0County']]]></LeadCounty>
+  //################# MAILING ADDRESS
+  <MailingConty><![CDATA[//*[@id='LeadDetailAddress1County']]]></MailingConty>
+  <MailingAddressLine1><![CDATA[//*[@id='LeadDetailAddress1AddressLine1']]]></MailingAddressLine1>
+  <MailingCity><![CDATA[//*[@id='LeadDetailAddress1City']]]></MailingCity>
+  <MailingState><![CDATA[//*[@id='LeadDetailAddress1State']]]></MailingState>
+  <MailingZipCode><![CDATA[//*[@id='LeadDetailAddress1PostalCode']]]></MailingZipCode>
+  <DoNotSolicitMailing><![CDATA[//*[@id='LeadDetailAddress1DoNotSolicit']]]></DoNotSolicitMailing>
+  <MailingAddRemark><![CDATA[//*[@id='address_add_link1']]]></MailingAddRemark>
+  <MailingRemarkText><![CDATA[//*[@id='LeadDetailAddress1Description']]]></MailingRemarkText>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveContactbtn><![CDATA[//*[@id='LeadDetailCreateForm']/div[2]/div[3]/a[1]/span[2]]]></SaveContactbtn>
+  // ############## CREATE DUBLICATE
+  <ClickOnDublicate><![CDATA[//*[@id='message']/div[4]/div/a[1]/span[2]]]></ClickOnDublicate>
+  <SelectCountry><![CDATA[//*[@id='LeadDetailAddress1Country']]]></SelectCountry>
+  <SelectCountry0><![CDATA[//*[@id='LeadDetailAddress0Country']]]></SelectCountry0>
+  
+  <!--1099 SALE AGENT-->
+  <SearchEmail><![CDATA[//*[@id='gs_company_name']]]></SearchEmail>
+  
+  <!--  EDIT LEAD   -->
+  <EditLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/span/a]]></EditLead>
+  <SaveEditLead><![CDATA[//*[@id='main_container']/div[1]/div[3]/div/a[1]/span[1]]]></SaveEditLead>
+  
+  <!--CONVERT TO LEAD-->
+  <ClickOnlead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickOnlead>
+  <ClickOnleadSrched><![CDATA[//table[@id='list1']/tbody/tr[2]/td[16]/a]]></ClickOnleadSrched>
+  <ClickOnConvert><![CDATA[//a[@title='Convert this Lead']]]></ClickOnConvert>
+  <ClickNoRecycleBin><![CDATA[//*[@id='LeadConversionDelete0']]]></ClickNoRecycleBin>
+  <ClickOnSaveConvert><![CDATA[//*[@id='convert-submit']/span[1]]]></ClickOnSaveConvert>
+  
+  <!--ADD LEAD PARTNER AGENT -->
+  <ClickOnLeads><![CDATA[//a[@title='Leads']]]></ClickOnLeads>
+  <ClickOnCreatePA><![CDATA[//*[@id='actionbuttons']/span/span]]></ClickOnCreatePA>
+  <MailingAddLine1><![CDATA[//*[@id='LeadAddress0AddressLine1']  ]]></MailingAddLine1>
+  <SelectSource><![CDATA[//*[@id='LeadReferralSource']]]></SelectSource>
+
+  <!--SEARCH LEAD -->
+  <EnterLeadToSearch><![CDATA[//*[@id='gs_company_name']]]></EnterLeadToSearch>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a]]></ClickOnEdit>
+  <EditSave><![CDATA[//*[@id='LeadEditForm']/div[2]/div[3]/a[1]/span[1]]]></EditSave>
+  <ClickOnleadView><![CDATA[//table[@id='list1']/tbody/tr[2]/td[12]/a]]></ClickOnleadView>
+  
+  <!--EDIT PARTNER AGENT-->
+  <ClickOnPartnerAgent><![CDATA[//*[@id='rerun']/span[2]]]></ClickOnPartnerAgent>
+  <Birthday><![CDATA[//*[@id='PartnerAgentBirthday']]]></Birthday>
+  <EnterDBAName><![CDATA[//*[@id='PartnerAgentDba']]]></EnterDBAName>
+  <EnterWebsite><![CDATA[//*[@id='PartnerAgentWebsite']]]></EnterWebsite>
+  <LinkedOInURL><![CDATA[//*[@id='PartnerAgentLinkedinUrl']]]></LinkedOInURL>
+  <SelectLanguage><![CDATA[//*[@id='PartnerAgentLanguage']]]></SelectLanguage>
+  <AddressLine1EditPA><![CDATA[//*[@id='PartnerAgentAddress0AddressLine1']]]></AddressLine1EditPA>
+  <SelectCountryPA><![CDATA[//*[@id='PartnerAgentAddress0Country']]]></SelectCountryPA>
+  <selectStatePA><![CDATA[//*[@id='PartnerAgentAddress0State']]]></selectStatePA>
+  <SavePartnerDetials><![CDATA[//a[@title='Save']]]></SavePartnerDetials>
+  <!--CONVERT LEAD -->
+  <UsernameOffice><![CDATA[//*[@id='UserLoginUserName']]]></UsernameOffice>
+  <PasswordOffice><![CDATA[//*[@id='UserLoginPasswordHash']]]></PasswordOffice>
+  <LoginBtn><![CDATA[//div[@align='center']/button/span/b]]></LoginBtn>
+  <ClickOnWelcome><![CDATA[//div[@id='tophead']/div[2]/table/tbody/tr/td[2]/div/b]]></ClickOnWelcome>
+  <EnterLeadName><![CDATA[//*[@id='gs_company_name']]]></EnterLeadName>
+  <CovertSaveBtn><![CDATA[//a[@id='convert-submit']]]></CovertSaveBtn>
+  <ClickOnLeadTab><![CDATA[//a[@title='Leads']]]></ClickOnLeadTab>
+  <ClickToCheckTheRecycleBinOption><![CDATA[//*[@id='LeadConversionDelete1']]]></ClickToCheckTheRecycleBinOption>
+  <SearchCompanyName><![CDATA[//*[@id='gs_name']]]></SearchCompanyName> 
+  <!--CHANGE STATUS-->
+  <SelectLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectLead>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='moreactions']/span[1]]]></ClickOnBulkUpdate>
+  <SelectChangePartner><![CDATA[//div[@class='moreactions']/ul/li[8]/a]]></SelectChangePartner>
+  <SelectPartnerAgnet><![CDATA[//*[@id='LeadPartnerUpdatePartnerAgentId']]]></SelectPartnerAgnet>
+  <ClickOnUpdate><![CDATA[//a[@onclick='validatePartnerUpdate()']]]></ClickOnUpdate>
+  
+  <SelectAgnetAsPartner><![CDATA[//*[@id='LeadPartnerAgentId']]]></SelectAgnetAsPartner>
+  <AgentAsParterAssociation><![CDATA[//*[@id='LeadPartnerAssociationId']]]></AgentAsParterAssociation>
+  <ClickOnEditLeadIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/span/a]]></ClickOnEditLeadIcon>
+  <SaveLeadPA><![CDATA[//a[@title='Save Lead']]]></SaveLeadPA>
+  <Select2lead><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></Select2lead>
+  <DeleteLeadBtnPA><![CDATA[//*[@id='deletelead']/span[1]]]></DeleteLeadBtnPA>
+  
+  <!--New Skin-->
+  <FirstNAME><![CDATA[//*[@id='LeadDetailFirstName']]]></FirstNAME>
+  <ClickOnLeadsTab><![CDATA[//a[@title='Leads']]]></ClickOnLeadsTab>
+  <SelectLeadType><![CDATA[//*[@id='LeadClientType']]]></SelectLeadType>#Processing
+  <SelectLeadStatus><![CDATA[//*[@id='LeadStatus']]]></SelectLeadStatus>#New
+  <SelectResponsibility><![CDATA[//*[@id='LeadAssignedUserId']]]></SelectResponsibility>#Aslam Khan
+  <ClickOnCompanyDetails><![CDATA[//a[text()='Company Details']]]></ClickOnCompanyDetails>
+  <SelectSalutaionLead><![CDATA[//*[@id='LeadDetailSalutation']]]></SelectSalutaionLead>
+  <CompanyName><![CDATA[//*[@id='LeadDetailCompanyName']]]></CompanyName>
+  <LeadLastName><![CDATA[//*[@id='LeadDetailLastName']]]></LeadLastName>
+  <SaveLeadNewSkin><![CDATA[//button[@class='btn btn-primary btn-sm pull-right form-bttn-margin savebutton']]]></SaveLeadNewSkin>
+
+</Locators>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <MoveHover><![CDATA[//a[@class='dropdown-toggle']]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnEquipmentTab><![CDATA[//a[@title='Equipment']]]></ClickOnEquipmentTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create Equipment']]]></ClickOnCreate>
+  //######################    EQUIPMENT CREATE
+  <EqpName><![CDATA[//*[@id='EquipmentName']]]></EqpName>
+  <Type><![CDATA[//*[@id='EquipmentType']]]></Type>
+  <EquipmentId><![CDATA[//*[@id='EquipmentEquipmentId']]]></EquipmentId>
+  <Category><![CDATA[//*[@id='EquipmentCategoryId']]]></Category>
+  <Modifier><![CDATA[//*[@id='EquipmentModifier']]]></Modifier>
+  //####################   VERSION
+  <Version><![CDATA[//*[@id='EquipmentVersion0Version']]]></Version>
+  <Description><![CDATA[//*[@id='EquipmentVersion0Description']]]></Description>
+  //################   APPLICABLE PROCESSOR
+  <ClickOnFirstCheckBox><![CDATA[//div[@id='processorbox']/div/div/div/div/input]]></ClickOnFirstCheckBox>
+  <ClickOn2CheckBox><![CDATA[//div[@id='processorbox']/div/div/div/div[2]/input]]></ClickOn2CheckBox>
+  //################   CLICK ON SAVE
+  <SaveBtn><![CDATA[//input[@value='Save']]]></SaveBtn>
+  <SearchEquipmenmt><![CDATA[//*[@id='gs_name']]]></SearchEquipmenmt>
+  <DeletePermanentlyEquip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span[2]/a[@title='Delete Equipment']]]></DeletePermanentlyEquip>
+  <VerifyVersionVal><![CDATA[//*[@id='EquipmentVersion0Version-error']]]></VerifyVersionVal>
+  <ClickCancelBtn><![CDATA[//div[@class='col-lg-12']/div[2]/a[@title='Cancel']]]></ClickCancelBtn>
+  <VerifyTextHedaing><![CDATA[//*[@id='page-wrapper']/div[3]/div/div[1]/h3]]></VerifyTextHedaing>
+  <ClickAddAnother><![CDATA[//a[@title='Add Another']]]></ClickAddAnother>
+  <DeleteAddAnotherField><![CDATA[//a[@title='Delete']]]></DeleteAddAnotherField>
+  <ClcikDeleteEq><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[2]/a[@title='Delete Equipment']]]></ClcikDeleteEq>
+  <ClickOnEditEquip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[1]/a[@title='Edit Equipment']]]></ClickOnEditEquip>
+
+  
+  
+</Locators>

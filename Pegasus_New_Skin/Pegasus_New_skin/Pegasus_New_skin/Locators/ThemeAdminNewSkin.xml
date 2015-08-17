@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ClickOnSystemTab><![CDATA[//a[@title='System']]]></ClickOnSystemTab>
+  <EnterThemeSearch><![CDATA[//*[@id='gs_name']]]></EnterThemeSearch>
+  <ClickEditTheme><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a[4]]]></ClickEditTheme>
+  <SelectFontSize><![CDATA[//*[@id='ThemeOption27Value']]]></SelectFontSize>#10px
+  <CLickSaveButton><![CDATA[//div[@class='col-lg-12 no-padding']/div[2]/button[@title='Save']]]></CLickSaveButton>
+
+</Locators>

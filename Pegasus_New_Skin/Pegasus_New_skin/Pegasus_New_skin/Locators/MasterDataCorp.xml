@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginBtn><![CDATA[//*[@id='UserLoginLoginForm']/button]]></LoginBtn>
+  //#######################   MASTER TAB  #######################
+  <ClickMasterTab><![CDATA[//*[@id='menu']/li[8]/a]]></ClickMasterTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Processor']]]></ClickOnCreate>
+  //#################    CREATE A PROCESSOR
+  <ProcessorName><![CDATA[//*[@id='CorporateMasterProcessorNewProcessorName']]]></ProcessorName>
+  <ProcessorCode><![CDATA[//*[@id='CorporateMasterProcessorProcessorCode']]]></ProcessorCode>
+  <ClickOnSaveBtn><![CDATA[//a[@title='Save']]]></ClickOnSaveBtn>
+  <ClickOnLogout><![CDATA[//a[@title='Logout']]]></ClickOnLogout>
+  <ClickOnPushOffice><![CDATA[//a[@title='Push to Offices']]]></ClickOnPushOffice>
+  //###############  LOGOUT
+  <WelcomeMoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]/div]]></WelcomeMoveHover>
+  <ClickOnWelcomeBack><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[2]]]></ClickOnWelcomeBack>
+  // ######################## LOGIN WITH OFFICE    ############################
+  <EnterUsernameOff><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsernameOff>
+  <EnterPasswordOff><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPasswordOff>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/button]]></ClickOnLoginButtojn>
+  //Become office
+  <ClickOnAdmin><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[1]]]></ClickOnAdmin>
+
+  <ClickOnMaterOff><![CDATA[//*[@id='menu']/li[5]/a]]></ClickOnMaterOff>
+  
+  <!--    EDIT PROCESSOR    -->
+  <SearchProcessor><![CDATA[//*[@id='gs_processor_name']]]></SearchProcessor>
+  <EnterCode><![CDATA[//*[@id='gs_processor_code']]]></EnterCode>
+  <ClickEditIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[1]/span/img]]></ClickEditIcon>
+  <ClickEditSaveBtn><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[1]]]></ClickEditSaveBtn >
+  <ClickOnDelIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[2]/span]]></ClickOnDelIcon>
+
+</Locators>

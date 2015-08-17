@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   Master Data TAB  #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnMasterDataTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterDataTab>
+  <ClickOnCreate><![CDATA[//*[@id='main_container']/div[2]/div/div[2]/div/a/span[2]]]></ClickOnCreate>
+  
+  //######################    Create API CODES
+  <GridId><![CDATA[//*[@id='MasterDataGridid']]]></GridId>
+  <VisaPosAuthfees><![CDATA[//*[@id='MasterDataVisaPosAuthFee']]]></VisaPosAuthfees>
+  <MCPosAuthFees><![CDATA[//*[@id='MasterDataMastercardPosAuthFee']]]></MCPosAuthFees>
+  <AmexPosAuthFees><![CDATA[//*[@id='MasterDataAmexPosAuthFee']]]></AmexPosAuthFees>
+  <DiscPosAuthFees><![CDATA[//*[@id='MasterDataDiscoverPosAuthFee']]]></DiscPosAuthFees>
+  <JCDPosAuthFees><![CDATA[//*[@id='MasterDataJcbPosAuthFee']]]></JCDPosAuthFees>
+  <VoiceAuthFees><![CDATA[//*[@id='MasterDataVoiceAuthFee']]]></VoiceAuthFees>
+  <AVSElectronicFees><![CDATA[//*[@id='MasterDataAvsElectronicFee']]]></AVSElectronicFees>
+  <AVSVoiveFees><![CDATA[//*[@id='MasterDataAvsVoiceFee']]]></AVSVoiveFees>
+  <ARUFees><![CDATA[//*[@id='MasterDataAruFee']]]></ARUFees>
+
+
+  //#################   SAVE   
+  <SaveBtn><![CDATA[//*[@id='masterdataCreate']/span[1]]]></SaveBtn>
+  
+  
+  
+  
+</Locators>
+
+

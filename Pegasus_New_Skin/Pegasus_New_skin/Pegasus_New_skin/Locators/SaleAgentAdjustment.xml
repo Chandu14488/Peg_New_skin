@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnEmployees><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[2]/a]]></ClickOnEmployees>
+  <ClickOnaCreateSaleBtn><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnaCreateSaleBtn>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='EmployeeFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='EmployeeBirthday']]]></BirthDay>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='EmployeePhone0PhoneNumber']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></PostalCode>
+  //###################### Department Role Team
+  <ClickOnDeppartmentTeam><![CDATA[//*[@id='deptboximg']]]></ClickOnDeppartmentTeam>
+  <SelectDepartment><![CDATA[//*[@id='EmployeeOrgDeptId']]]></SelectDepartment>
+  <SelectRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></SelectRole>
+  <PrimaryTeam><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></PrimaryTeam>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnSAvatarBtn><![CDATA[//div[@class='row']/div[3]/ul/li/input]]></ClickOnSAvatarBtn>
+  <!--CLICK ON SAVE BUTTON-->
+  <SaveAGENTbtn><![CDATA[//*[@id='EmployeeCreateSalesUserForm']/div[2]/div[7]/div/a[1]/span[2]]]></SaveAGENTbtn>
+  <SelectCountrySaleAgnt><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountrySaleAgnt>
+  <AutoPassGenerate><![CDATA[//*[@id='UserAutogenerate']]]></AutoPassGenerate>
+  <UsernamePassword><![CDATA[//*[@id='UserPassword']]]></UsernamePassword>
+
+  <!-- BULK UPDATE --> 
+  <ClickOnSaleAgnetChkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnSaleAgnetChkBox>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='moreactions']/span[1]]]></ClickOnBulkUpdate>
+  <ChangeDepartment><![CDATA[//div[@class='moreactions']/ul/li[1]/a]]></ChangeDepartment>
+  <SelectDepartmentSaleAgnet><![CDATA[//*[@id='EmpDepartmentUpdateOrgDeptId']]]></SelectDepartmentSaleAgnet>#IT
+  <ClickOnUpdate><![CDATA[//table[@class='gridSearchForm']/tbody/tr/td[3]/a/span]]></ClickOnUpdate>
+  <SaleDepartmentUpdate><![CDATA[//a[@onclick='validateRoleUpdate()']]]></SaleDepartmentUpdate>
+  <TeamUpdateBtn><![CDATA[//a[@onclick='validateTeamUpdate()']]]></TeamUpdateBtn>
+  <ClickUpdateStatus><![CDATA[//a[@onclick='validateStatusUpdate()']]]></ClickUpdateStatus>
+  <ChangeRole><![CDATA[//div[@class='moreactions']/ul/li[2]/a]]></ChangeRole>
+  <SelectRoleSaleAgent><![CDATA[//*[@id='EmpRoleUpdateOrgRoleId']]]></SelectRoleSaleAgent>#Manager
+  <ChangeTeam><![CDATA[//div[@class='moreactions']/ul/li[3]/a]]></ChangeTeam>
+  <SelectTeam><![CDATA[//*[@id='EmpTeamUpdateTeamId']]]></SelectTeam>#A Team
+  <ChangeStatus><![CDATA[//div[@class='moreactions']/ul/li[4]/a]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='EmpStatusUpdateStatus']]]></SelectStatus>#Active
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnOffice><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnOffice>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  
+  <!--NEW SKIN-->
+  <ClickOnAgentTab><![CDATA[//a[@title='Agents']]]></ClickOnAgentTab>
+  <SaleAgent><![CDATA[//a[@title='Sales Agents']]]></SaleAgent>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateBtn>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+   <!--SEARCH AGENT-->
+  <EnterAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterAgentName>
+  <SelectStatusAdjtmnt><![CDATA[//*[@id='gs_active']]]></SelectStatusAdjtmnt>
+  <ClickOnAgent1099><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_contactNm']/a]]></ClickOnAgent1099>
+  <ClickOnCreatebtnAdjmnt><![CDATA[//div[@title='Create']/button]]></ClickOnCreatebtnAdjmnt>
+  <ClickOnSaleAgent><![CDATA[//a[@title='Sales Agent']]]></ClickOnSaleAgent>
+  <ClickSaleManager><![CDATA[//a[@title='Sales Manager']]]></ClickSaleManager>
+  <!--CREATE ADJUSTMENT FOR SALE AGENT-->
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+  <!--VIEW ALL EMPLOYEES -->
+  <SelectUserType><![CDATA[//*[@id='gs_UserType']]]></SelectUserType>#Employee,1099 Sales Agent,Partner Agent,Partner Association
+   <!--CODE FOR AGENT-->
+  <ClickAddNewAgentCode><![CDATA[//a[text()='Add New Agent Code']]]></ClickAddNewAgentCode>
+  <SelectProcessorCode><![CDATA[//*[@id='EmployeeSalesCodeProcessor']]]></SelectProcessorCode>#Any
+  <EnterSaleCode><![CDATA[//*[@id='EmployeeSalesCodeSalesCode']]]></EnterSaleCode>
+  <RevenueShareAsAgent><![CDATA[//*[@id='EmployeeSalesCodeAgentRevenueShare']]]></RevenueShareAsAgent>
+  <RevenueShareAsManager><![CDATA[//*[@id='EmployeeSalesCodeManagerRevenueShare']]]></RevenueShareAsManager>
+  <SaveAgentCode><![CDATA[//button[text()='Save']]]></SaveAgentCode>
+  <DeleteAgentCodeRevenueShare><![CDATA[//table[@id='list2']/tbody/tr[2]/td[@aria-describedby='list2_act']/span/a[@title='Delete this row']]]></DeleteAgentCodeRevenueShare>
+  <DeleteSelectRoe><![CDATA[//*[@id='dData']]]></DeleteSelectRoe>
+
+
+
+
+
+
+
+
+
+</Locators>
+

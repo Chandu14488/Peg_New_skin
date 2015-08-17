@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickOnPayout><![CDATA[//a[@title='Payouts Summary']]]></ClickOnPayout>
+  <ClickExport><![CDATA[//*[@id='export']/span/span]]></ClickExport>
+  <ClickOnSpecficPAyout><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a]]></ClickOnSpecficPAyout>
+  <!--PARTNER AGENT REWPORTS-->
+  <ReportsTab><![CDATA[//a[@title='Reports']]]></ReportsTab>
+  <SelectFileDate><![CDATA[//*[@id='file_date']]]></SelectFileDate>
+  <SelectProcessor><![CDATA[//*[@id='processor']]]></SelectProcessor>
+  <SeachButtonPayout><![CDATA[//a[@title='Search Payouts']]]></SeachButtonPayout>
+  <ClickOnCSVUpload><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[1]/a/img]]></ClickOnCSVUpload>
+  <ClickExportToPDF><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[3]/a/img]]></ClickExportToPDF>
+  <ClickToExportToExcel><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[2]/a/img]]></ClickToExportToExcel>
+  
+  <!--CONVERT LEAD 
+  <UsernameOffice><![CDATA[//*[@id='UserLoginUserName']]]></UsernameOffice>
+  <PasswordOffice><![CDATA[//*[@id='UserLoginPasswordHash']]]></PasswordOffice>
+  <LoginBtn><![CDATA[//div[@align='center']/button/span/b]]></LoginBtn>
+  <ClickOnWelcome><![CDATA[//div[@id='tophead']/div[2]/table/tbody/tr/td[2]/div/b]]></ClickOnWelcome>
+  <EnterLeadName><![CDATA[//*[@id='gs_company_name']]]></EnterLeadName>
+  <ClickOnLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickOnLead>
+  <ClickOnConvert><![CDATA[//a[@title='Convert this Lead']]]></ClickOnConvert>
+  <CovertSaveBtn><![CDATA[//a[@id='convert-submit']]]></CovertSaveBtn>
+  <ClickOnLeadTab><![CDATA[//a[@title='Leads']]]></ClickOnLeadTab>         
+  -->
+  
+
+</Locators>

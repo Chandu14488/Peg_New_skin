@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ClickOnPdfTab><![CDATA[//a[@title='PDF Templates']]]></ClickOnPdfTab>
+  <ChooseModule><![CDATA[//*[@id='PdfTemplateModule']]]></ChooseModule>#20
+  <Browse><![CDATA[//*[@id='PdfTemplatePdfFile']]]></Browse>
+  <ClickOnImport><![CDATA[//*[@id='importform']/table/tbody/tr[4]/td/div[3]/div/input]]></ClickOnImport>
+  <ClickOnNext><![CDATA[//*[@id='page-wrapper']/div[3]/div/div[2]/button]]></ClickOnNext>
+  <SelectCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategory>#340
+  <ClickOnSave><![CDATA[//*[@id='saveForm']]]></ClickOnSave>
+  <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
+  <SelectModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></SelectModuleToSearch>#clients
+  <ClickOnPdf><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></ClickOnPdf>
+  <ClickOnDelete><![CDATA[//a[@title='Delete']]]></ClickOnDelete>
+  <!--Restore-->
+  <ClickOnReCycleBin><![CDATA[//a[@title='Recycle PDF Templates']]]></ClickOnReCycleBin>
+  <ClickOnRestoreTemplate><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Restore This PDF Templatet']]]></ClickOnRestoreTemplate>
+  <!--DELETE-->
+  <ClickOnDeleteIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[1]]]></ClickOnDeleteIcon>
+  <ClickEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Edit PDF Template']]]></ClickEdit>
+  <SelectStatusDeactive><![CDATA[//*[@id='PdfTemplateActive']]]></SelectStatusDeactive>#0
+  <ClickSaveEdit><![CDATA[//button[@title='Save']]]></ClickSaveEdit>
+  <SelectStatusCorp><![CDATA[//*[@id='CorporatePdfTemplateActive']]]></SelectStatusCorp>
+  <RestoreThisTemplateCorp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span[2]/a[@title='Restore This PDF Templatet']]]></RestoreThisTemplateCorp>
+  <PermanentlyDeleteFrmRecycleBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span[1]/a[1]]]></PermanentlyDeleteFrmRecycleBin>
+  
+  <!--Office-->
+  <ClickOnOffice><![CDATA[//a[@title='Offices']]]></ClickOnOffice>
+  <SelectUserTypeCorp><![CDATA[//*[@id='gs_userType']]]></SelectUserTypeCorp>
+  <!--PACKAGE-->
+  <ClickCreatePackage><![CDATA[//a[@title='New PDF Package']]]></ClickCreatePackage>
+  <PackageName><![CDATA[//*[@id='PdfTemplateName']]]></PackageName>
+  <SelectModule><![CDATA[//*[@id='PdfTemplateZModuleId']]]></SelectModule>
+  <SelectPDFTempwithRule><![CDATA[//a[@onclick='setPdfWithRule()']]]></SelectPDFTempwithRule>
+  <TemplateRuleName><![CDATA[//*[@id='ImportIndexPopName']]]></TemplateRuleName>
+  <SelectRuleType><![CDATA[//*[@id='ImportIndexPopConditionType']]]></SelectRuleType>#if
+  <SelectStatus><![CDATA[//*[@id='if_field_left_0']]]></SelectStatus>#clients.client_type
+  <SelectOperatorType><![CDATA[//*[@id='if_field_op_0']]]></SelectOperatorType>#li
+  <StatusNew><![CDATA[//*[@id='if_field_right_0_0']]]></StatusNew>#New
+  <ThenSetPDF><![CDATA[//*[@id='ImportIndexPopIfFieldValue']]]></ThenSetPDF>#4338
+  <ADDPDF><![CDATA[//button[@title='Add PDF']]]></ADDPDF>
+  <SelectCategoryPackage><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategoryPackage>340
+  <SavePDFPakage><![CDATA[//a[@title='Save']]]></SavePDFPakage>
+  <SelectPDFTemplate><![CDATA[//*[@id='PdfTemplatePdfTemplateId']]]></SelectPDFTemplate>#4338
+  <!--CORP SIDE-->
+  <PDFAccessedByAllOffice><![CDATA[//*[@id='OrganizationAllOffices0']]]></PDFAccessedByAllOffice>
+  <CheckDisplayInTab><![CDATA[//*[@id='PdfTemplateTabLink']]]></CheckDisplayInTab>
+  <CheckCanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CheckCanShare>
+  <CanEmailPDF><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmailPDF>
+  <ClickOnWelcomeToLogout><![CDATA[//span[@class='text-muted text-xs block']]]></ClickOnWelcomeToLogout>
+  <LogoutFromCorp><![CDATA[//a[@title='Logout']]]></LogoutFromCorp>
+  <!--SEARCH PDF-->
+  <EnterUserName><![CDATA[//*[@id='UserLoginUserName']]]></EnterUserName>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginButton><![CDATA[//button[text()='Login']]]></LoginButton>
+  <TextToVerify><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']]]></TextToVerify>
+
+  <EnterPDFToSerch><![CDATA[//*[@id='gs_name']]]></EnterPDFToSerch>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a[@title='Edit PDF Template']]]></ClickOnEdit>
+  <EnterTemplateName><![CDATA[//*[@id='PdfTemplateName']]]></EnterTemplateName>
+  <ClickOnReplaceLink><![CDATA[//a[text()='Replace PDF Template']]]></ClickOnReplaceLink>
+  <SaveReplaceTemplate><![CDATA[//form[@id='PdfTemplateReplaceForm']/div[3]/a[@title='Save']]]></SaveReplaceTemplate>
+  <SavebuttonEDit><![CDATA[//button[@title='Save']]]></SavebuttonEDit>
+  <!--API CODE INTEGRATION-->
+  <ClickOnIntegrationTab><![CDATA[//span[text()='Integrations']]]></ClickOnIntegrationTab>
+  <ClickCanelApi><![CDATA[//div[@class='white-bg']/div/a[@title='Cancel']]]></ClickCanelApi>
+  
+  
+  
+</Locators>
+
+

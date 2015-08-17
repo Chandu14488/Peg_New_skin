@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+<!--EMPLOYEE CORP-->
+  <ClickOnEmployeeTab><![CDATA[//a[@title='Employees']]]></ClickOnEmployeeTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Employee']]]></ClickOnCreate>
+  <EnterUserName><![CDATA[//*[@id='UserUserName']]]></EnterUserName>
+  <EnterFirstName><![CDATA[//*[@id='CorporateUserFirstName']]]></EnterFirstName>
+  <EnterLastName><![CDATA[//*[@id='CorporateUserLastName']]]></EnterLastName>
+  <EnterPrimaryEmail><![CDATA[//*[@id='UserVerificationEmail']]]></EnterPrimaryEmail>
+  <ClickOnCheckBox><![CDATA[//div[@class='form-group col-lg-12']/ul/li[1]/input]]></ClickOnCheckBox>
+  <EnterPhneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber']]]></EnterPhneNumber>
+  <EnterEaddress><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent']]]></EnterEaddress>
+  <ClickOnSave><![CDATA[//div[@class='col-lg-12 no-padding']/div[2]/span[2]/input]]></ClickOnSave>
+  <VerifyvALIDATION><![CDATA[//*[@id='CorporateUserFirstName-error']]]></VerifyvALIDATION>
+  <VerifyAvatar><![CDATA[//*[@id='data[User][user_avatar_id][]-error']]]></VerifyAvatar>
+  <VerifyEmail><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent-error']]]></VerifyEmail>
+  <VerifyPhoneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber-error']]]></VerifyPhoneNumber>
+  <VerifyLastName><![CDATA[//*[@id='CorporateUserLastName-error']]]></VerifyLastName>
+  <SearchEmployee><![CDATA[//*[@id='gs_contactNm']]]></SearchEmployee>
+  <SearchEnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></SearchEnterEmail>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a/i]]></ClickOnEdit>
+  <EnterZipCode><![CDATA[//*[@id='CorporateUserAddress0PostalCode']]]></EnterZipCode>
+  <VerifyMandatoryStar><![CDATA[//div[@class='ibox-content']/div[2]/div[4]/label[text()='Last Name ']/span[@class='star']]]></VerifyMandatoryStar>
+
+
+</Locators>

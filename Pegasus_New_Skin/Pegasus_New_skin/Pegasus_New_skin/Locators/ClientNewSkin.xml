@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  
+  <!--Create Clinet-->
+  <ClickOnClientTab><![CDATA[//a[@title='Clients']]]></ClickOnClientTab>
+  <ClickOnCreateClient><![CDATA[//a[@title='Create a Client']]]></ClickOnCreateClient>
+  <SelectClientStatus><![CDATA[//*[@id='ClientStatus']]]></SelectClientStatus>#Agreement
+  <SelectResponsibilty><![CDATA[//*[@id='ClientAssignedUserId']]]></SelectResponsibilty>#602
+  <EnterDBAName><![CDATA[//*[@id='ClientDetailCompanyDbaName']]]></EnterDBAName>
+  <ClickOnResidualIncomeLink><![CDATA[//a[text()='Residual Income']]]></ClickOnResidualIncomeLink>
+  <ClickOnCreateRA><![CDATA[//a[@title='Create New Rule']]]></ClickOnCreateRA>
+  <CreateDublicateClient><![CDATA[//button[text()='Create Duplicate']]]></CreateDublicateClient>
+  <ClickSaveClient><![CDATA[//button[@title='Save']]]></ClickSaveClient>
+  <ClickToViewClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickToViewClient>
+  <ClickToViewOpportunities><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickToViewOpportunities>
+  <!--EDIT-->
+  <ClickOnCompanyDetailTab><![CDATA[//a[text()='Company Details']]]></ClickOnCompanyDetailTab>
+  <EnterCompanyCFO><![CDATA[//*[@id='ClientDetailCompCFO']]]></EnterCompanyCFO>
+  <EnterZipCode><![CDATA[//*[@id='ClientDetailLocationPostalCode']]]></EnterZipCode>
+  <ClickOnDescription><![CDATA[//h5[text()='Description']]]></ClickOnDescription>
+  <ClickOnMoreCompanyDetial><![CDATA[//h5[text()='More Company Details']]]></ClickOnMoreCompanyDetial>
+  <ClickOnSiteSurvey><![CDATA[//h5[text()='Site Survey']]]></ClickOnSiteSurvey>
+  <VerifyMandatorySign><![CDATA[//*[@id='CorporateUserEmployeeCreateForm']/div[3]/div/div[1]/div/div[2]/div[2]/div[4]/label/span]]></VerifyMandatorySign>
+  
+  <!--RATE AND FEES-->
+  <ClickOnRateFees><![CDATA[//a[text()='Rates & Fees']]]></ClickOnRateFees>
+  <EnterVisaCredit><![CDATA[//*[@id='ClientRatesFeeQualRate']]]></EnterVisaCredit>
+  
+  
+  <!--SEARCH CLIENT-->
+  <EnterCompanyDba><![CDATA[//*[@id='gs_company_dba_name']]]></EnterCompanyDba>
+  <ClickOnClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_company_dba_name']/a]]></ClickOnClient>
+
+  <!--CREATE ADJUSTMENT FOR SALE AGENT-->
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+
+  <!--VIEW ADJUSTMENT-->
+  <ClickonResidualIncometab><![CDATA[//a[@title='Residual Income']]]></ClickonResidualIncometab>
+  <ClickOnMasterdata><![CDATA[//a[@title='Master Data']]]></ClickOnMasterdata>
+  <EnterAdjustmentNameSrch><![CDATA[//*[@id='gs_rule_name']]]></EnterAdjustmentNameSrch>
+  <EnterScrhAdjustmentFor><![CDATA[//*[@id='gs_adjustment_for']]]></EnterScrhAdjustmentFor>
+  <ClickAdjustmentName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_rule_name']/a]]></ClickAdjustmentName>
+  <ClickOnBulkUpdateClient><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdateClient>
+  
+  <!--MARKETING -->
+  <ClickonMarketingTab><![CDATA[//a[text()='Marketing']]]></ClickonMarketingTab>
+  <!--PRODUCTS-->
+  <ClickProductTabAdmin><![CDATA[//a[@title='Products']]]></ClickProductTabAdmin>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Product']]]></ClickOnCreate>
+  <EnterNamePrd><![CDATA[//*[@id='ProductName']]]></EnterNamePrd>
+  <SelectCategoryProd><![CDATA[//*[@id='ProductCategoryId']]]></SelectCategoryProd>#30
+  <AddCustomField><![CDATA[//a[@title='Add Custom Field']]]></AddCustomField>
+  <EnterFeildName><![CDATA[//*[@id='ProductCustomFieldName']]]></EnterFeildName>
+  <SelectFieldType><![CDATA[//*[@id='ProductCustomFieldType']]]></SelectFieldType>
+  <AddAnotherField><![CDATA[//*[@id='options0']]]></AddAnotherField>
+  <Description><![CDATA[//*[@id='ProductCustomFieldDescription']]]></Description>
+  <ClickSaveProdBtn><![CDATA[//button[@title='Save']]]></ClickSaveProdBtn>
+  <SaveProduct><![CDATA[//div[@class='col-lg-4 form-bttns-align']/span[2]/input]]></SaveProduct>
+  <ClickonProfile><![CDATA[//span[@class='text-muted text-xs block']]]></ClickonProfile>
+  <ClickOnMainSite><![CDATA[//a[@href='/selcorp/seloffice/']]]></ClickOnMainSite>
+  <SearchProdcut><![CDATA[//*[@id='gs_productname']]]></SearchProdcut>
+  <DeleteProduct><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Delete Product']]]></DeleteProduct>
+  <ViewLeadOfClnt><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></ViewLeadOfClnt>
+  <!--VERIFY COUNTRY-->
+  <ClickOnContactTab><![CDATA[//a[text()='Contacts']]]></ClickOnContactTab>
+  <SelectComapnyState><![CDATA[//*[@id='ClientDetailLocationState']]]></SelectComapnyState>
+  <SelectMailingCountry><![CDATA[//*[@id='ClientDetailMailingCountry']]]></SelectMailingCountry>#Canada
+  <SelectLocationCountry><![CDATA[//*[@id='ClientDetailLocationCountry']]]></SelectLocationCountry>#Canada
+  <SelectAddressCountry><![CDATA[//*[@id='ClientContactContactAddress0Country']]]></SelectAddressCountry>
+  <SelectOwnerAddressCountry><![CDATA[//*[@id='ClientOwnerContactAddress0Country']]]></SelectOwnerAddressCountry>
+  <!--VERIFY COUNTRY-->
+  <EmplyEditNs><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></EmplyEditNs>
+  <ClickOnOpporTab><![CDATA[//a[@title='Opportunities']]]></ClickOnOpporTab>
+  <SelectAddressCountryOpp><![CDATA[//*[@id='OpportunityDetailLocationCountry']]]></SelectAddressCountryOpp>
+  <SelectMailingOppCountry><![CDATA[//*[@id='OpportunityDetailMailingCountry']]]></SelectMailingOppCountry>
+  <!--OFFICE VERIFY COUNTRY-->
+  <OfficeTabCorp><![CDATA[//a[@title='Offices']]]></OfficeTabCorp>
+  <SelectCountryCorp><![CDATA[//*[@id='OrganizationAddress0Country']]]></SelectCountryCorp>
+   <!--VERIFY COUNTRY FOR EMPLOYEE-->
+  <ClickOnEmployee><![CDATA[//a[@title='Employees']]]></ClickOnEmployee>
+  <SelectCountryCorpAdmin><![CDATA[//*[@id='CorporateUserAddress0Country']]]></SelectCountryCorpAdmin>
+
+  <!--IMPORT CLIENTS-->
+  <ClickOnBrowse><![CDATA[//*[@id='vcard_file']]]></ClickOnBrowse>
+  <ClickOnImport><![CDATA[//input[@value='Import']]]></ClickOnImport>
+  <SelectCompanyDBATab1><![CDATA[//*[@id='tab1']]]></SelectCompanyDBATab1>#3852
+  <CompanydbaNameSec><![CDATA[//*[@id='section1']]]></CompanydbaNameSec>#26611
+  <SelectFieldName><![CDATA[//*[@id='field_name1']]]></SelectFieldName>#client_details.company_dba_name
+  <ClickOnImportToPegasus><![CDATA[//button[@title='Import']]]></ClickOnImportToPegasus>
+
+  <!--MERCHNAT TAB-->
+  <ClickOnMerchnatTab><![CDATA[//a[@title='Merchants']]]></ClickOnMerchnatTab>
+  
+  <!--REMEMBER ME-->
+  <EnterUserName><![CDATA[//*[@id='UserLoginUserName']]]></EnterUserName>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginBtnRem><![CDATA[//button[text()='Login']]]></LoginBtnRem>
+  <ClickOnRememberMe><![CDATA[//*[@id='UserLoginLoginForm']/div[4]/div/div/div/ins]]></ClickOnRememberMe>
+
+  <!--TERMINALS AND EQUIPMENTS -->
+  <ClickOnTerminalsAndEquip><![CDATA[//a[text()='Terminals & Equipments']]]></ClickOnTerminalsAndEquip>
+  <SelectProcessorTE><![CDATA[//*[@id='EquipmentProcessor']]]></SelectProcessorTE>
+  <SelectTypeTE><![CDATA[//*[@id='EquipmentType']]]></SelectTypeTE>
+  <ClickAddEquipm><![CDATA[//a[@title='Add Equipment']]]></ClickAddEquipm>
+  <ClickSearch>><![CDATA[//*[@id='searchButton']]]></ClickSearch>
+  <ClickOEquip><![CDATA[//table[@class='table table-hover table-mail']/tbody/tr[1]/td[1]/a]]></ClickOEquip>
+  <!--MY PROFILE-->
+  <ClickOnEditProfile><![CDATA[//a[@title='Edit Profile']]]></ClickOnEditProfile>
+  <SelectCountryMP><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountryMP>
+  <SelectStateMP><![CDATA[//*[@id='EmployeeAddress0State']]]></SelectStateMP>
+  <ClickSaveMP><![CDATA[//button[@title='Save']]]></ClickSaveMP>
+  <ClickOnCancelMP><![CDATA[//a[@title='Cancel']]]></ClickOnCancelMP>
+  
+  <!--CREATE CATOGORY ADMIN-->
+  <ClickCreateCategoryAdmin><![CDATA[//a[@title='Create New Category']/i]]></ClickCreateCategoryAdmin>
+  <EnterCategoryName><![CDATA[//*[@id='ProductCategoryName']]]></EnterCategoryName>
+  <SaveCategoryAdmin><![CDATA[//button[@title='Save']]]></SaveCategoryAdmin>
+  <ClickEditSaveBtnCa><![CDATA[//input[@title='Save']]]></ClickEditSaveBtnCa>
+  <!--LEAD -->
+  <ClickOnLeadTab><![CDATA[//a[@title='Leads']]]></ClickOnLeadTab>
+  <SelectLeadStatus><![CDATA[//*[@id='LeadStatus']]]></SelectLeadStatus>#New
+  <LeadResponsibility><![CDATA[//*[@id='LeadAssignedUserId']]]></LeadResponsibility>#637
+  <EnterFirstNameLaed><![CDATA[//*[@id='LeadDetailFirstName']]]></EnterFirstNameLaed>
+  <EnterLastName><![CDATA[//*[@id='LeadDetailLastName']]]></EnterLastName>
+  <EnterCompanyName><![CDATA[//*[@id='LeadDetailCompanyName']]]></EnterCompanyName>
+  <ClickOnConvert><![CDATA[//*[@id='convert']/span]]></ClickOnConvert>
+  <ClickOnYes><![CDATA[//*[@id='LeadConversionDelete1']]]></ClickOnYes>
+  <ClickConvertSaveLead><![CDATA[//*[@id='LeadConversionViewForm']/div[4]/button[1]]]></ClickConvertSaveLead>
+  <EnterLeadToSerach><![CDATA[//*[@id='gs_company_name']]]></EnterLeadToSerach>
+  <VerifyTextComapny><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></VerifyTextComapny>
+  <ClickOnMasterDataCorp><![CDATA[//a[@title='Master Data']]]></ClickOnMasterDataCorp>
+  <ClickOnCreateBtn><![CDATA[//a[@title='Create New Processor']]]></ClickOnCreateBtn>
+  <EnterProcessorName><![CDATA[//*[@id='CorporateMasterProcessorNewProcessorName']]]></EnterProcessorName>
+  <EnterCode><![CDATA[//*[@id='CorporateMasterProcessorProcessorCode']]]></EnterCode>
+  <ClickOnSavePro><![CDATA[//div[@class='col-lg-4 form-bttns-align']/a[@title='Save']]]></ClickOnSavePro>
+  <!--REVENUE SHARE FOR AGENT -->
+  <DoubleClickOnSaleAgent><![CDATA[//*[@id='manager']]]></DoubleClickOnSaleAgent>
+  <SelectAgentRI><![CDATA[//*[@id='manager']/form/select]]></SelectAgentRI>#637
+  <ClickSaveSaleAgent><![CDATA[//*[@id='manager']/form/button[1]]]></ClickSaveSaleAgent>
+  <DoubleClickOnSetRevenue><![CDATA[//*[@id='sales_agent_share']]]></DoubleClickOnSetRevenue>
+  <EnterRevenbueShareR1A><![CDATA[//*[@id='sales_agent_share']/form/input]]></EnterRevenbueShareR1A>
+  <ClickSaveSetRI><![CDATA[//*[@id='sales_agent_share']/form/button[1]]]></ClickSaveSetRI>
+  <DeleteAllRevenueShare><![CDATA[//a[@title='Delete all revenue shares']]]></DeleteAllRevenueShare>
+  <VerifySelectsET><![CDATA[//*[@id='sales_agent_share']/span]]></VerifySelectsET>
+  <!--DEFAULT RATE AND FEES-->
+  <SelectProcessorRF><![CDATA[//*[@id='ClientRatesFeeProcessor']]]></SelectProcessorRF>#Processor 1186688466 Edited
+  <SeleectMerchantRF><![CDATA[//*[@id='ClientRatesFeeIndustry']]]></SeleectMerchantRF>
+  <MethodOfAcceptingRF><![CDATA[//*[@id='ClientRatesFeeCardAcceptMethod']]]></MethodOfAcceptingRF>#Manually swiped
+  <ClickOnGetDefaultRates><![CDATA[//button[text()='Get Default Rates']]]></ClickOnGetDefaultRates>
+  <VerifyPopulatedFiedl><![CDATA[//*[@id='ClientRatesFeeTemplates']/option[contains(text(),'Rates & Fees')]]]></VerifyPopulatedFiedl>
+  <!--DEAFAULT RATES AND FEES-->
+  <SelectProcessorRFL><![CDATA[//*[@id='LeadRatesFeeProcessor']]]></SelectProcessorRFL>#Processor 1186688466 Edited
+  <SeleectMerchantRFL><![CDATA[//*[@id='LeadRatesFeeIndustry']]]></SeleectMerchantRFL>
+  <ClickOnGetDefaultRatesL><![CDATA[//button[text()='Get Default Rates']]]></ClickOnGetDefaultRatesL>
+  <VerifyPopulatedFiedlL><![CDATA[//*[@id='LeadRatesFeeTemplates']/option[contains(text(),'Rates & Fees')]]]></VerifyPopulatedFiedlL>
+  <LeadAcceptingMethod><![CDATA[//*[@id='LeadRatesFeeCardAcceptMethod']]]></LeadAcceptingMethod>#Manually Swiped
+  <MouserOverAllOpp><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/ul/li[1]/a]]></MouserOverAllOpp>
+  <MouseOverWithOpenMeeting><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/ul/li[3]/a]]></MouseOverWithOpenMeeting>
+  <AllOpportunities><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/button]]></AllOpportunities>
+  <!--Merchant Number-->
+  <VMCMerchantid><![CDATA[//*[@id='ClientDetailMerchID']]]></VMCMerchantid>
+  <DinarId><![CDATA[//*[@id='ClientDetailDinersID']]]></DinarId>
+  <AmexMerchantId><![CDATA[//*[@id='ClientDetailAmexID']]]></AmexMerchantId>
+  <JCBID><![CDATA[//*[@id='ClientDetailJcbID']]]></JCBID>
+  <DiscoverMercahntId><![CDATA[//*[@id='ClientDetailDiscID']]]></DiscoverMercahntId>
+  <EDTID><![CDATA[//*[@id='ClientDetailEbtID']]]></EDTID>
+  <PNSNumber><![CDATA[//*[@id='ClientDetailPnsID']]]></PNSNumber>
+  <ByPassNumber><![CDATA[//*[@id='ClientDetailBuypassNum']]]></ByPassNumber>
+  <NashVilleIDE><![CDATA[//*[@id='ClientDetailNashMID']]]></NashVilleIDE>
+  <VitualNumberTer1><![CDATA[//*[@id='ClientDetailVitalNum']]]></VitualNumberTer1>
+  <VTTerminal2><![CDATA[//*[@id='ClientDetailVitalNum2']]]></VTTerminal2>
+  <DataWireID><![CDATA[//*[@id='ClientDetailDataWireID']]]></DataWireID>
+  <DebitID><![CDATA[//*[@id='ClientDetailDebitID']]]></DebitID>
+  <CheckID><![CDATA[//*[@id='ClientDetailCheckID']]]></CheckID>
+  <VerifyExisting><![CDATA[//*[@id='messageduplicate']/div[2]/div/div[1]/h3]]></VerifyExisting>
+  <ClickOnMerchantTab><![CDATA[//a[text()='Merchant Numbers']]]></ClickOnMerchantTab>
+  <ClcikAddNote><![CDATA[//a[@title='Add Note']]]></ClcikAddNote>
+  <EnterNoteName><![CDATA[//*[@id='NoteName']]]></EnterNoteName>
+  <ClickSaveNoteButton><![CDATA[//form[@id='CreateNoteForm']/div[4]/a[@title='Save']]]></ClickSaveNoteButton>
+  <VerifyTextNoteValidation><![CDATA[//*[@id='NoteName-error']]]></VerifyTextNoteValidation>
+  <OwnerTab><![CDATA[//a[text()='Owners']]]></OwnerTab>
+</Locators>

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EED134F-1AA0-4298-B046-6C480F6B8944}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pegasus_New_skin</RootNamespace>
+    <AssemblyName>Pegasus_New_skin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atlassian.Jira, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Atlassian.Jira.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToExcel, Version=1.10.1.0, Culture=neutral, PublicKeyToken=9c8ea65a58f03f1f, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\nunit.core.interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.uiexception, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\nunit.uiexception.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\nunit.util.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Remotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Interfaces, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Remotion.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.44.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.44.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.47.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.44.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Locators\LocatorReader.cs" />
+    <Compile Include="PageHelper\ActivitiesHelperNewSkin.cs" />
+    <Compile Include="PageHelper\ClientHelperNewSkin.cs" />
+    <Compile Include="PageHelper\Comm\DriverHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverTestCase.cs" />
+    <Compile Include="PageHelper\Comm\ExecutionLog.cs" />
+    <Compile Include="PageHelper\Comm\XMLParse.cs" />
+    <Compile Include="PageHelper\ClientsHelper.cs" />
+    <Compile Include="PageHelper\CorpEmployeeHelper.cs" />
+    <Compile Include="PageHelper\CreateOfficeHelperNewSkin.cs" />
+    <Compile Include="PageHelper\CreateOmahaAuthGripHelperNewSkin.cs" />
+    <Compile Include="PageHelper\EmployeeNewSkinHelper.cs" />
+    <Compile Include="PageHelper\EquiomentHelperAdmin.cs" />
+    <Compile Include="PageHelper\LeadNewSkinHelper.cs" />
+    <Compile Include="PageHelper\LoginHelper.cs" />
+    <Compile Include="PageHelper\MasterDataCorpHelper.cs" />
+    <Compile Include="PageHelper\PartnerAgentHelperNewSkin.cs" />
+    <Compile Include="PageHelper\PDFTemplateAdminHelper.cs" />
+    <Compile Include="PageHelper\ResidualIcomeOfficeHelper.cs" />
+    <Compile Include="PageHelper\SaleAgentRevenueAdjustmentHelper.cs" />
+    <Compile Include="PageHelper\ThemeAdminHelper.cs" />
+    <Compile Include="PageHelper\TicketsOfficeNewSkinHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddAgentCodeForPartnerAgnet.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AdditionalFilter.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddressStateIssues.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddressTypePickList.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AgentEmployeePage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AllAgentDisplayePage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AllUserPageInCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\BlankSubjectValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CancelEditProfile.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ChangeStatusOfTicketAndVerifyStatus.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CheckFilter.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClickEditEquipmentAfterConfirmDelete.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientContactTabExpandOnClickLabel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientDublicateMatchOverlay.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientMerchantIssue1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientMerchantIssue2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientPDFInactive.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientRequiredField.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientResidualAdjustment.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientVerifyCanadaCountry.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ConvertLeadMoveToRecycleBin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CopyrightNotAvail.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CorpEmployeeIssues.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateClientError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateEquipmentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateLeadWithRequiredFieldNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateOfficeNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreatePDFPackage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreatePDFPackagePushToOffice.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateProcessorNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateReportValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteAllRevenueShareClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteEmployee.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteEquipmentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteIndividualRevenue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteOfficeNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeletePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeletePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteProductAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteSaleAgentCodeAndRevenueShare.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditClientNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditCorpEmployee.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditMyProfile.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditOmahaAuthGripAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPartnerAgentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPDFTemplateNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditProductCategoryAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditThemeAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmailNoteWithRelatedTo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmployeeAgentNS.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmployeeVerifyCanadaCountryCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EquipentblankValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ExportError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ExportingResidualIncomePayoutsReport.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FDNRequirement.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDictionaryFields.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDictionarySection.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDisError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FilterIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\GetDeafultRatesAndFeesClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\GetDeafultRatesAndFeesLead.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\IntegrationCodeAPICancel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LanguageNameValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LastActivityBy.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LastLoginTime.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginAndLogoutNewSkinAsOffice.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginError1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginError2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusActivePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusActivePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusInActivePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusInActivePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ManageUser.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MasterDataProcessorPushToOfficeNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MerchantTabCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MouseOverTheButtonOpportunities.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\OfficeUserSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\One000Added.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\OpportunititySubjectFiledValidateBlank.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\OppourtunitiesVerifyCanadaCountry.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PartnerAgentWithUserNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PDFPackageWithRule.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PermanentlyDeleteDocumentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PermanentlyDeletePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PermanentlyDeletePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProcessorDeleteTypo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProductIpage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProfilePictureChange.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProfileViewOfClientLeadAndOpportunities.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RateAndFeesPushToOfficeBtn.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RelpacePDFForPDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RememberMeLoginPage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ReportPDFBroken.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidiualIcomeAgentPayoutExportToExcel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualAdjustmentTool.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualAdjustmentTool1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolAgentsFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolAgentsPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolOfficeFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolOfficePercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RestoreDeletedPDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RestorePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentForSaleManagerAddAmountPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentForSaleManagerRemoveFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentAddFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentAddPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentRemoveFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentRemovePercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentSaleAgentAddAmountPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentSaleAgentEmployeeAddPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentSaleAgentRemoveFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentSaleManagerEmployeeAddPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareButtonForPartnerAgent.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareButtonForPartnerAssociation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareInDecimalPartnerAgent.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareInDecimalPartnerAssociation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaleAgentCodeProcessor.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaleAgentWithUserNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaveLocation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TabsNotBroken.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketComment.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketingSystem.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TrashIconAvail.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UpdateTextOnMarketingPageClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UploadedLogo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UserCountPage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UserVerifyCountryCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ValidationForFileTypeOfficeLogo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VendorEmailVerification.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VendorSocialurlValidate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyAddAnotherVersionDisplay.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyAstrick.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyBulkUpdateForClients.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyButtonsForTickets.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyMailMessage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyMerchantFields.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyMyAccount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyRecycleBin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifySuccessMessage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyUserRedirectToShippingOnCancel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ViewRevenueAdjustmentPartnerAgentAddFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ViewRevenueAdjustmentSaleAgentPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\WebsiteFilter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ApplicationSettings.xml" />
+    <Content Include="Files\index.jpg" />
+    <Content Include="Files\index2.png" />
+    <Content Include="Locators\ActivitiesOfficeNewSkin.xml" />
+    <Content Include="Locators\ClientNewSkin.xml" />
+    <Content Include="Locators\CorpEmployeeNewSkin.xml" />
+    <Content Include="Locators\CreateOffice.xml" />
+    <Content Include="Locators\CreateOfficeNewSkin.xml" />
+    <Content Include="Locators\CreateOmahaAuthGrip.xml" />
+    <Content Include="Locators\EmployeeAgentNewSkin.xml" />
+    <Content Include="Locators\EquipmentNewSkin.xml" />
+    <Content Include="Locators\LeadNewSkin.xml" />
+    <Content Include="Locators\Login.xml" />
+    <Content Include="Locators\MasterDataCorp.xml" />
+    <Content Include="Locators\MasterDataNewSkin.xml" />
+    <Content Include="Locators\PartnerAgent.xml" />
+    <Content Include="Locators\PartnerAgentNewSkin.xml" />
+    <Content Include="Locators\PDFTemplateNewSkin.xml" />
+    <Content Include="Locators\ResidualIncomeOfficeNewSkin.xml" />
+    <Content Include="Locators\SaleAgent.xml" />
+    <Content Include="Locators\SaleAgentAdjustment.xml" />
+    <Content Include="Locators\ThemeAdminNewSkin.xml" />
+    <Content Include="Locators\TicketsOfficeNewSkin.xml" />
+    <Content Include="Selenium\Selenium.WebDriverBackedSelenium.pdb" />
+    <Content Include="Selenium\ThoughtWorks.Selenium.Core.pdb" />
+    <Content Include="Selenium\WebDriver.pdb" />
+    <Content Include="Selenium\WebDriver.Support.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files\1.pdf" />
+    <None Include="Files\2.pdf" />
+    <None Include="Files\AgentImport.xlsx" />
+    <None Include="Files\clientsamples%282%29.csv" />
+    <None Include="Files\clientsamples.csv" />
+    <None Include="Files\contactsamples.csv" />
+    <None Include="Files\CORNERSTONEBUSINESSRESO808.csv" />
+    <None Include="Files\FDN_Samples.csv" />
+    <None Include="Files\FirstDataNorth_ResidualSamples - Small.csv" />
+    <None Include="Files\leadsamples.csv" />
+    <None Include="Files\leadslist.csv" />
+    <None Include="Files\opportunitysamples.csv" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
