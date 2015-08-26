@@ -581,13 +581,21 @@ namespace PegasusTests.PageHelper.Comm
             }
 
         }
-        public void VerifyTextNotPresent(string text)
+        public void VerifyTextNotAvailable(string text)
         {
-            var result = GetWebDriver().PageSource.Contains(text);
-            Assert.IsFalse(result, "Text String: " + text + "Found.");
+            string locator = "//*[contains(text(),'" + text + "')]";
+            Assert.IsFalse(IsElementVisible(locator));
 
         }
 
+        public void VerifyTextNotPresent(string text)
+        {
+            var result = GetWebDriver().PageSource.Contains(text);
+
+            Assert.IsFalse(result, "Text String: " + text + " Found.");
+
+
+        }
         public bool SwitchNewWindow(String windowName)
         {
 
@@ -639,6 +647,7 @@ namespace PegasusTests.PageHelper.Comm
         {
             Actions builder = new Actions(GetWebDriver());
             IWebElement el = GetWebDriver().FindElement(ByLocator(locator));
+            Console.WriteLine("Locator = " + locator);
             Assert.IsTrue(IsElementPresent(locator));
             builder.DoubleClick(el).Build().Perform();
         }

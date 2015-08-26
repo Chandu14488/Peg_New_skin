@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5cb7902f-c225-4d7d-830d-36117ef162d1" name="Test Origen@TESTORIGEN-PC 2015-08-18 16:41:46" runUser="TestOrigen-PC\Test Origen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-08-18T16:41:46.9286027+05:30" queuing="2015-08-18T16:41:46.9286027+05:30" start="2015-08-18T16:41:46.9376032+05:30" finish="2015-08-18T16:59:14.2345052+05:30" />
+  <TestSettings name="default" id="817a734c-6d47-4bc0-9772-f2879e1ebbaa">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Test Origen_TESTORIGEN-PC 2015-08-18 16_41_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7155151d-a4f4-4ef0-9bd6-f860ddd4b1eb" testId="e583e817-da39-b6e3-11da-6d2a55a549de" testName="deletePDFTemplate" computerName="TESTORIGEN-PC" duration="00:02:25.9747514" startTime="2015-08-18T16:39:20.8352466+05:30" endTime="2015-08-18T16:41:46.8635990+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7155151d-a4f4-4ef0-9bd6-f860ddd4b1eb">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0345b415-7cc4-4c07-bd7b-361c8752613e" testId="35bd9b17-2e60-aab0-1b76-88768e271b9f" testName="deletePDFTemplateCorp" computerName="TESTORIGEN-PC" duration="00:01:59.0493155" startTime="2015-08-18T16:41:46.8936007+05:30" endTime="2015-08-18T16:43:45.9464101+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0345b415-7cc4-4c07-bd7b-361c8752613e">
+      <Output>
+        <StdOut>Logged in as: selcorp / seWelcome2
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00ae87c1-2aaf-4533-8dde-c5a343eb7498" testId="5af9ade2-ea2c-04bc-ffae-7c8140d0bb14" testName="officeUserSkin" computerName="TESTORIGEN-PC" duration="00:01:41.0491830" startTime="2015-08-18T16:43:45.9464101+05:30" endTime="2015-08-18T16:45:26.9991900+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00ae87c1-2aaf-4533-8dde-c5a343eb7498">
+      <Output>
+        <StdOut>Username = Office201508181644307239
+Logged in as: selcorp / seWelcome2
+Redirected at Dashboard screen.</StdOut>
+        <ErrorInfo>
+          <Message>Test method PegasusTests.Scripts.ClientsTests.OfficeUserSkin.officeUserSkin threw exception: 
+OpenQA.Selenium.NoSuchFrameException: no such frame: element is not a frame
+  (Session info: chrome=44.0.2403.155)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(IWebElement frameElement)
+   at PegasusTests.PageHelper.PartnerAgentHelperNewSkin.switchFrame(String frameid) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\PartnerAgentHelperNewSkin.cs:line 115
+   at PegasusTests.Scripts.ClientsTests.OfficeUserSkin.officeUserSkin() in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\Scripts\NewSkinTaskJira\OfficeUserSkin.cs:line 107
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9203b105-2313-4aef-9325-06db7108dfbb" testId="77fc25e2-ec9d-2905-8293-8627f567792d" testName="permanentlyDeletePDFTemplate" computerName="TESTORIGEN-PC" duration="00:02:29.3136239" startTime="2015-08-18T16:45:26.9991900+05:30" endTime="2015-08-18T16:47:56.3167305+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9203b105-2313-4aef-9325-06db7108dfbb">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4d1a202-c38c-4d44-aa23-192c0412a7ea" testId="af2876a4-fd94-b4f6-f658-3d4815f2f997" testName="permanentlyDeletePDFTemplateCorp" computerName="TESTORIGEN-PC" duration="00:01:26.5582343" startTime="2015-08-18T16:47:56.3167305+05:30" endTime="2015-08-18T16:49:22.8776815+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4d1a202-c38c-4d44-aa23-192c0412a7ea">
+      <Output>
+        <StdOut>Logged in as: selcorp / seWelcome2
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f447a4d-ffa7-48a0-828e-3d0ef060305f" testId="576e3e55-38df-126f-cc0a-8fd704b107bc" testName="residualIncomeOfficeAdjustmentToolAgentsFlat" computerName="TESTORIGEN-PC" duration="00:00:48.3430445" startTime="2015-08-18T16:49:22.8776815+05:30" endTime="2015-08-18T16:50:11.2224466+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f447a4d-ffa7-48a0-828e-3d0ef060305f">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="116f56b1-a288-481a-b5be-d16e761962f9" testId="ff2bfc16-3549-24fe-4aab-595470a9093a" testName="residualIncomeOfficeAdjustmentToolAgentsPercentage" computerName="TESTORIGEN-PC" duration="00:01:02.0749794" startTime="2015-08-18T16:50:11.2224466+05:30" endTime="2015-08-18T16:51:13.2999973+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="116f56b1-a288-481a-b5be-d16e761962f9">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63e66134-895a-4c3e-ab38-8868414a641e" testId="1631b5d2-4592-7dcd-b539-537575ab0c26" testName="residualIncomeOfficeAdjustmentToolOfficeFlat" computerName="TESTORIGEN-PC" duration="00:00:55.7987707" startTime="2015-08-18T16:51:13.2999973+05:30" endTime="2015-08-18T16:52:09.1001889+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63e66134-895a-4c3e-ab38-8868414a641e">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98e3dc79-c9cf-4f08-a760-86ced59c1e42" testId="eeb96bc7-5f29-c71a-5796-2a7a623e7d0a" testName="residualIncomeOfficeAdjustmentToolOfficePercentage" computerName="TESTORIGEN-PC" duration="00:00:54.9114117" startTime="2015-08-18T16:52:09.1001889+05:30" endTime="2015-08-18T16:53:04.0133297+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98e3dc79-c9cf-4f08-a760-86ced59c1e42">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ed7f094-4f85-4e32-a0c4-d59cba2afc5d" testId="93d82f4c-b3ab-5d5e-f4bd-2a8e888f9d74" testName="restoreDeletedPDFTemplate" computerName="TESTORIGEN-PC" duration="00:01:27.8965545" startTime="2015-08-18T16:53:04.0143298+05:30" endTime="2015-08-18T16:54:31.9123572+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ed7f094-4f85-4e32-a0c4-d59cba2afc5d">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+        <ErrorInfo>
+          <Message>Test method PegasusTests.Scripts.ClientsTests.RestoreDeletedPDFTemplate.restoreDeletedPDFTemplate threw exception: 
+System.InvalidOperationException: unknown error: Element is not clickable at point (896, 138). Other element would receive the click: &lt;div class="modal-backdrop fade in"&gt;&lt;/div&gt;
+  (Session info: chrome=44.0.2403.155)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 247
+   at PegasusTests.PageHelper.PDFTemplateAdminHelper.ClickElement(String XmlNode) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\PDFTemplateAdminHelper.cs:line 29
+   at PegasusTests.Scripts.ClientsTests.RestoreDeletedPDFTemplate.restoreDeletedPDFTemplate() in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\Scripts\NewSkinTaskJira\RestoreDeletedPDFTemplate.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="44b7facf-bef3-4b9b-804b-82b8427cf6fe" testId="58acfcda-0b2a-f016-5ed3-8e51a7454595" testName="revenueShareInDecimalPartnerAgent" computerName="TESTORIGEN-PC" duration="00:01:14.3093646" startTime="2015-08-18T16:54:31.9123572+05:30" endTime="2015-08-18T16:55:46.2246077+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44b7facf-bef3-4b9b-804b-82b8427cf6fe">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cbc2d930-e2db-4d5a-a30d-38f2aeeb8b96" testId="9699bd57-3e9a-16f4-dafd-b1a79632258f" testName="revenueShareInDecimalPartnerAssociation" computerName="TESTORIGEN-PC" duration="00:01:38.3813508" startTime="2015-08-18T16:55:46.2246077+05:30" endTime="2015-08-18T16:57:24.6082349+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbc2d930-e2db-4d5a-a30d-38f2aeeb8b96">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+        <ErrorInfo>
+          <Message>Test method PegasusTests.Scripts.ClientsTests.RevenueShareInDecimalPartnerAssociation.revenueShareInDecimalPartnerAssociation threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at PegasusTests.Locators.LocatorReader.ReadLocator(String key) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\Locators\LocatorReader.cs:line 22
+   at PegasusTests.PageHelper.PartnerAgentHelperNewSkin.ClickElement(String xmlNode) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\PartnerAgentHelperNewSkin.cs:line 54
+   at PegasusTests.Scripts.ClientsTests.RevenueShareInDecimalPartnerAssociation.revenueShareInDecimalPartnerAssociation() in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\Scripts\NewSkinTaskJira\RevenueShareInDecimalPartnerAssociation.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e1618a7-f985-461d-8d02-0f68f38aba47" testId="df28b719-e3f7-30cc-9006-df77cfa42dde" testName="verifyButtonsForTickets" computerName="TESTORIGEN-PC" duration="00:01:49.5715335" startTime="2015-08-18T16:57:24.6092349+05:30" endTime="2015-08-18T16:59:14.1835022+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e1618a7-f985-461d-8d02-0f68f38aba47">
+      <Output>
+        <StdOut>Logged in as: AslamKhan / 1qaz!QAZ
+Redirected at Dashboard screen.</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at PegasusTests.PageHelper.Comm.DriverHelper.GetText(String locator) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 264
+   at PegasusTests.PageHelper.TicketsOfficeNewSkinHelper.VerifyText(String XmlNode, String text) in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\PageHelper\TicketsOfficeNewSkinHelper.cs:line 42
+   at PegasusTests.Scripts.ClientsTests.VerifyButtonsForTickets.verifyButtonsForTickets() in e:\TestOrigen_Automation\CSharp\Peg_New\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\Scripts\NewSkinTaskJira\VerifyButtonsForTickets.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="deletePDFTemplate" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="e583e817-da39-b6e3-11da-6d2a55a549de">
+      <Execution id="7155151d-a4f4-4ef0-9bd6-f860ddd4b1eb" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.DeletePDFTemplate" name="deletePDFTemplate" />
+    </UnitTest>
+    <UnitTest name="deletePDFTemplateCorp" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="35bd9b17-2e60-aab0-1b76-88768e271b9f">
+      <Execution id="0345b415-7cc4-4c07-bd7b-361c8752613e" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.DeletePDFTemplateCorp" name="deletePDFTemplateCorp" />
+    </UnitTest>
+    <UnitTest name="officeUserSkin" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="5af9ade2-ea2c-04bc-ffae-7c8140d0bb14">
+      <Execution id="00ae87c1-2aaf-4533-8dde-c5a343eb7498" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.OfficeUserSkin" name="officeUserSkin" />
+    </UnitTest>
+    <UnitTest name="permanentlyDeletePDFTemplate" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="77fc25e2-ec9d-2905-8293-8627f567792d">
+      <Execution id="9203b105-2313-4aef-9325-06db7108dfbb" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.PermanentlyDeletePDFTemplate" name="permanentlyDeletePDFTemplate" />
+    </UnitTest>
+    <UnitTest name="permanentlyDeletePDFTemplateCorp" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="af2876a4-fd94-b4f6-f658-3d4815f2f997">
+      <Execution id="a4d1a202-c38c-4d44-aa23-192c0412a7ea" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.PermanentlyDeletePDFTemplateCorp" name="permanentlyDeletePDFTemplateCorp" />
+    </UnitTest>
+    <UnitTest name="residualIncomeOfficeAdjustmentToolAgentsFlat" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="576e3e55-38df-126f-cc0a-8fd704b107bc">
+      <Execution id="1f447a4d-ffa7-48a0-828e-3d0ef060305f" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.ResidualIncomeOfficeAdjustmentToolAgentsFlat" name="residualIncomeOfficeAdjustmentToolAgentsFlat" />
+    </UnitTest>
+    <UnitTest name="residualIncomeOfficeAdjustmentToolAgentsPercentage" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="ff2bfc16-3549-24fe-4aab-595470a9093a">
+      <Execution id="116f56b1-a288-481a-b5be-d16e761962f9" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.ResidualIncomeOfficeAdjustmentToolAgentsPercentage" name="residualIncomeOfficeAdjustmentToolAgentsPercentage" />
+    </UnitTest>
+    <UnitTest name="residualIncomeOfficeAdjustmentToolOfficeFlat" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="1631b5d2-4592-7dcd-b539-537575ab0c26">
+      <Execution id="63e66134-895a-4c3e-ab38-8868414a641e" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.ResidualIncomeOfficeAdjustmentToolOfficeFlat" name="residualIncomeOfficeAdjustmentToolOfficeFlat" />
+    </UnitTest>
+    <UnitTest name="residualIncomeOfficeAdjustmentToolOfficePercentage" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="eeb96bc7-5f29-c71a-5796-2a7a623e7d0a">
+      <Execution id="98e3dc79-c9cf-4f08-a760-86ced59c1e42" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.ResidualIncomeOfficeAdjustmentToolOfficePercentage" name="residualIncomeOfficeAdjustmentToolOfficePercentage" />
+    </UnitTest>
+    <UnitTest name="restoreDeletedPDFTemplate" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="93d82f4c-b3ab-5d5e-f4bd-2a8e888f9d74">
+      <Execution id="0ed7f094-4f85-4e32-a0c4-d59cba2afc5d" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.RestoreDeletedPDFTemplate" name="restoreDeletedPDFTemplate" />
+    </UnitTest>
+    <UnitTest name="revenueShareInDecimalPartnerAgent" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="58acfcda-0b2a-f016-5ed3-8e51a7454595">
+      <Execution id="44b7facf-bef3-4b9b-804b-82b8427cf6fe" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.RevenueShareInDecimalPartnerAgent" name="revenueShareInDecimalPartnerAgent" />
+    </UnitTest>
+    <UnitTest name="revenueShareInDecimalPartnerAssociation" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="9699bd57-3e9a-16f4-dafd-b1a79632258f">
+      <Execution id="cbc2d930-e2db-4d5a-a30d-38f2aeeb8b96" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.RevenueShareInDecimalPartnerAssociation" name="revenueShareInDecimalPartnerAssociation" />
+    </UnitTest>
+    <UnitTest name="verifyButtonsForTickets" storage="e:\testorigen_automation\csharp\peg_new\pegasus\peg_new_skin\pegasus_new_skin\pegasus_new_skin\pegasus_new_skin\bin\debug\pegasus_new_skin.dll" id="df28b719-e3f7-30cc-9006-df77cfa42dde">
+      <Execution id="8e1618a7-f985-461d-8d02-0f68f38aba47" />
+      <TestMethod codeBase="E:\TestOrigen_Automation\CSharp\Peg_New\Pegasus\Peg_New_skin\Pegasus_New_Skin\Pegasus_New_skin\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="PegasusTests.Scripts.ClientsTests.VerifyButtonsForTickets" name="verifyButtonsForTickets" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e583e817-da39-b6e3-11da-6d2a55a549de" executionId="7155151d-a4f4-4ef0-9bd6-f860ddd4b1eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35bd9b17-2e60-aab0-1b76-88768e271b9f" executionId="0345b415-7cc4-4c07-bd7b-361c8752613e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5af9ade2-ea2c-04bc-ffae-7c8140d0bb14" executionId="00ae87c1-2aaf-4533-8dde-c5a343eb7498" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77fc25e2-ec9d-2905-8293-8627f567792d" executionId="9203b105-2313-4aef-9325-06db7108dfbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af2876a4-fd94-b4f6-f658-3d4815f2f997" executionId="a4d1a202-c38c-4d44-aa23-192c0412a7ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="576e3e55-38df-126f-cc0a-8fd704b107bc" executionId="1f447a4d-ffa7-48a0-828e-3d0ef060305f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff2bfc16-3549-24fe-4aab-595470a9093a" executionId="116f56b1-a288-481a-b5be-d16e761962f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1631b5d2-4592-7dcd-b539-537575ab0c26" executionId="63e66134-895a-4c3e-ab38-8868414a641e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eeb96bc7-5f29-c71a-5796-2a7a623e7d0a" executionId="98e3dc79-c9cf-4f08-a760-86ced59c1e42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93d82f4c-b3ab-5d5e-f4bd-2a8e888f9d74" executionId="0ed7f094-4f85-4e32-a0c4-d59cba2afc5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58acfcda-0b2a-f016-5ed3-8e51a7454595" executionId="44b7facf-bef3-4b9b-804b-82b8427cf6fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9699bd57-3e9a-16f4-dafd-b1a79632258f" executionId="cbc2d930-e2db-4d5a-a30d-38f2aeeb8b96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df28b719-e3f7-30cc-9006-df77cfa42dde" executionId="8e1618a7-f985-461d-8d02-0f68f38aba47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="9" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

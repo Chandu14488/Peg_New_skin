@@ -61,5 +61,13 @@ namespace PegasusTests.PageHelper
         {
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selenium_corp/selenium_office/admin");
         }
+
+        public void verifyElementDisplayed(string field)
+        {
+            var locator = locatorReader.ReadLocator(field);
+            WaitForElementPresent(locator, 20);
+            Assert.IsTrue(IsElementVisible(locator));
+
+        }
     }
 }

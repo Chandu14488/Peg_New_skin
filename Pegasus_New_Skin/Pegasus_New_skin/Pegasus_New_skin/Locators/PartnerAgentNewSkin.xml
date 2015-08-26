@@ -313,4 +313,41 @@
   <ClickOnSaveRS><![CDATA[//form[@id='PartnerAgentCodesShareAgentsRevenueShareForm']/div[@class='modal-footer']/a[1]]]></ClickOnSaveRS>
   <SearchDeciaml><![CDATA[//*[@id='gs_revenue_share']]]></SearchDeciaml>
   <VerifyValueInDecimal><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_revenue_share']]]></VerifyValueInDecimal>
+  <RevenueSahrnepartnerasso><![CDATA[//a[@title='Add a New Association Revenue Share']]]></RevenueSahrnepartnerasso>
+  <AgentNameSelect><![CDATA[//*[@id='PartnerAssociationCodesSharePartnerAssociationId']]]></AgentNameSelect>
+  <ProcessorCodePAss><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationCode']]]></ProcessorCodePAss>
+  <RevenueShareps><![CDATA[//*[@id='PartnerAssociationCodesShareRevenueShare']]]></RevenueShareps>
+  <ProcessorSelect><![CDATA[//*[@id='PartnerAssociationCodesShareProcessor']]]></ProcessorSelect>
+  <SaveRS><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationsRevenueShareForm']/div[4]/a[1]]]></SaveRS>
+
+
+  <CreateCheck><![CDATA[//*[@id='UserCreateUser']]]></CreateCheck>
+  <VerifyField><![CDATA[//*[@id='UserUserName']]]></VerifyField>
+
+  <SelectSys><![CDATA[//*[@id='OrganizationCodeOrgId']]]></SelectSys>
+  <Value1><![CDATA[//*[@id='OrganizationCodeSalesCode0']]]></Value1>
+  <Value2><![CDATA[//*[@id='OrganizationCode2AgentNumber']]]></Value2>
+  <AddAnother><![CDATA[//a[contains(@class,'newsysprin') and @title='Add Another']]]></AddAnother>
+  <SecOp><![CDATA[//*[contains(@id,'sysprin')]/div[2]/input]]></SecOp>
+  <FilterName><![CDATA[//*[@id='gs_name']]]></FilterName>
+  <RefreshButton><![CDATA[//*[@id='reloadform']/span]]></RefreshButton>
+  <NonFilter><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]]]></NonFilter>
+
+  <EditPick><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'pick-lists/edit')]]]></EditPick>
+  <AddPick><![CDATA[//a[@title='Add New Item']]]></AddPick>
+  <PickType><![CDATA[//*[@id='PickListValueValue']]]></PickType>
+  <PickSave><![CDATA[//*[@id='add-item-submit']]]></PickSave>
+
+  <ReletedTo><![CDATA[//*[@id='MeetingParentType']]]></ReletedTo>
+  <AssignMeeting><![CDATA[//*[@id='assignParent']]]></AssignMeeting>
+  <AssignedUser><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[1]/td[2]/a]]></AssignedUser>
+  <EmailField><![CDATA[//*[@id='inviteespopupContent']/table/tbody/tr/td[3]]]></EmailField>
+  <ZipCode><![CDATA[//*[@id='OpportunityDetailLocationPostalCode']]]></ZipCode>
+  <V><![CDATA[//*[@id='tab-1']/div[11]/div[2]]]></V>
+  <CityV><![CDATA[//*[@id='OpportunityDetailLocationCity']]]></CityV>
+  <LeadZip><![CDATA[//*[@id='LeadDetailLocationPostalCode']]]></LeadZip>
+  <V1><![CDATA[//h5[text()='Electronic Addresses']]]></V1>
+  <ConTab><![CDATA[//a[text()='Contacts']]]></ConTab>
+  <ClientZip><![CDATA[//*[@id='ClientDetailLocationPostalCode']]]></ClientZip>
+  <V2><![CDATA[//a[@onclick='copy_address();']]]></V2>
 </Locators>

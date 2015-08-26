@@ -65,8 +65,16 @@ namespace PegasusTests.Scripts.ClientsTests
                 ticketsOfficeNewSkinHelper.VerifyPageText("Edit");
 
                 //Redirect back
-                GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/tickets/view/944");
-                ticketsOfficeNewSkinHelper.WaitForWorkAround(4000);
+                GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/tickets");
+                
+                //Verify title
+                VerifyTitle("Tickets");
+
+                //Open ticket
+                ticketsOfficeNewSkinHelper.ClickElement("OpenTicket");
+
+                //Verify title
+                VerifyTitle("Ticket View");
 
                 //Verify
                 ticketsOfficeNewSkinHelper.VerifyText("ClickDeleteBtn", "Delete");

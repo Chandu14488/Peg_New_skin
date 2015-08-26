@@ -62,7 +62,7 @@ namespace PegasusTests.Scripts.ClientsTests
             pDFTemplateAdminHelper.ClickElement("ClickOnImport");
 
             pDFTemplateAdminHelper.WaitForTextHide("Your request is being processed.", 30);
-
+            pDFTemplateAdminHelper.WaitForWorkAround(10000);
             //ClickOnNext
             pDFTemplateAdminHelper.ClickElement("ClickOnNext");
 

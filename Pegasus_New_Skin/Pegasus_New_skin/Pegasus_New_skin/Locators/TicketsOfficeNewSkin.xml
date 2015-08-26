@@ -18,5 +18,5 @@
   <ClosedTicket><![CDATA[//*[@id='close_button']/i]]></ClosedTicket>
   <VerifyTextResolver><![CDATA[//table[@id='list1']/tbody/tr[2]/td[23]/div[contains(@style,'img')]]]></VerifyTextResolver>
   <ClickResolvedSaveBtn><![CDATA[//form[@id='AddResolutinForm']/div[4]/input[@value='Save']]]></ClickResolvedSaveBtn>
-
+  <OpenTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></OpenTicket>
 </Locators>

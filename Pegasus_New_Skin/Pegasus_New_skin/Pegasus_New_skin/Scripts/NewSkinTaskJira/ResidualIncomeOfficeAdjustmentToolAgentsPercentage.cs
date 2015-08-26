@@ -37,14 +37,11 @@ namespace PegasusTests.Scripts.ClientsTests
             VerifyTitle("Dashboard");
             Console.WriteLine("Redirected at Dashboard screen.");
 
-              //Click on Agent in Topmenu
-              residualIcomeOfficeHelper.ClickElement("ResidualIncomeTab");
-
-              //Clcik on Master Data
-             residualIcomeOfficeHelper.ClickElement("ClickOnMastarData");
-
                //Click on Click On Partner Agent
                GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/rir/adjustments_tool");
+
+               //Verify title
+               VerifyTitle("Adjustments Tool");
 
                //Click On Create btn Adjmnt
                residualIcomeOfficeHelper.ClickElement("ClickOnCreateAdjust");

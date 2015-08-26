@@ -37,6 +37,7 @@ namespace PegasusTests.PageHelper
         {
             var locator = locatorReader.ReadLocator(XmlNode);
             var value = GetText(locator);
+            Console.WriteLine(value);
             Assert.IsTrue(value.Contains(text));
         }
 
@@ -220,6 +221,13 @@ namespace PegasusTests.PageHelper
         {
             var locator = locatorReader.ReadLocator(field);
             Assert.IsTrue(ElementNotAvailable(locator));
+        }
+
+        public void verifyElementAvailable(String field)
+        {
+            var locator = locatorReader.ReadLocator(field);
+            WaitForElementVisible(locator, 20);
+            Assert.IsTrue(IsElementVisible(locator));
         }
 
         public void ClickMultiple(string field)

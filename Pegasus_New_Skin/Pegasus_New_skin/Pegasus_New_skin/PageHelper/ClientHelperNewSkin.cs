@@ -108,6 +108,14 @@ namespace PegasusTests.PageHelper
             WaitForWorkAround(2000);
             DoubleClick(locator);
         }
-    
+
+
+        public void verifyElementVisible(string field)
+        {
+            var locator = locatorReader.ReadLocator(field);
+            WaitForElementPresent(locator, 30);
+            WaitForElementVisible(locator, 30);
+            Assert.IsTrue(IsElementVisible(locator));
+        }
     }
 }

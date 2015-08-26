@@ -46,16 +46,24 @@ namespace PegasusTests.Scripts.ClientsTests
             //Click on Click On Partner Agent
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/partners/associations");
 
+            //verify title
+            VerifyTitle("Partner Associations");
 
             //ClickOnRevenueShare
-            partnerAgentHelperNewSkin.ClickElement("ClickOnRevenueShare");
-            partnerAgentHelperNewSkin.WaitForWorkAround(4000);
+            partnerAgentHelperNewSkin.ClickElement("RevenueSahrnepartneragent");
+
+            //Verify title
+            VerifyTitle("Partner Associations Revenue Shares");
 
             //Click on Revenue Share Partner Agnet
-            partnerAgentHelperNewSkin.ClickElement("ClickOnPANewRevenueShare");
+            partnerAgentHelperNewSkin.ClickElement("RevenueSahrnepartnerasso");
+            partnerAgentHelperNewSkin.WaitForWorkAround(5000);
 
             //SelectPartnerAgnetRS
-            partnerAgentHelperNewSkin.Select("AgentNameSelect", "216");
+            partnerAgentHelperNewSkin.SelectByText("AgentNameSelect", "AssociationTester");
+
+            //Select processor
+            partnerAgentHelperNewSkin.SelectByText("ProcessorSelect", "Chy Processor");
 
             //EnterPartnerCode
             var code = "1" + RandomNumber(99,999);
@@ -66,12 +74,10 @@ namespace PegasusTests.Scripts.ClientsTests
             partnerAgentHelperNewSkin.TypeText("RevenueShareps", RS);
 
             //ClickOnSaveRS
-            partnerAgentHelperNewSkin.ClickElement("ClickOnSaveRS");
-            partnerAgentHelperNewSkin.WaitForWorkAround(4000);
+            partnerAgentHelperNewSkin.ClickElement("SaveRS");
 
             //verify message Partner agent code & revenue share saved successfully.
-           partnerAgentHelperNewSkin.VerifyPageText("Partner association code & revenue share saved successfully.");
-            partnerAgentHelperNewSkin.WaitForWorkAround(4000);
+           partnerAgentHelperNewSkin.WaitForText("Partner association code & revenue share saved successfully.",30);
 
             //Enter Deciaml value
             partnerAgentHelperNewSkin.TypeText("SearchDeciaml", RS);

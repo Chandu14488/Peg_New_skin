@@ -43,78 +43,44 @@ namespace PegasusTests.Scripts.ClientsTests
             VerifyTitle("Dashboard");
             Console.WriteLine("Redirected at Dashboard screen.");
 
-            //Click on Clients in Topmenu
-//            clientHelper.clickClients();
-
-            //Click to open client info
-   //         clientHelper.OpenClient();
-
-//#######################  MOVE HOVER TO THE WELCOME
-            //Click on Move over
-            equiomentHelperAdmin.ClickElement("MoveHover");
-
-            //Click On  Admin
-            GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/admin");
-
-//################################# Terminal And Equipment Tab #############################################
-
-            //Click on Terminal And Equipment Tab
-            equiomentHelperAdmin.ClickElement("ClickOnEquipmentTab");
-
-//##################  Redirect To Url
-
             //Redirect To URL
-            GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/equipment/create");
+            GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/vendors/create");
 
-//################################# Create Equipments #############################################
+            //Verify title
+            VerifyTitle("Create a New Vendor");
 
-            // Click On Create
-   //         equiomentHelperAdmin.ClickElement("ClickOnCreate");
-            equiomentHelperAdmin.WaitForWorkAround(3000);
+            //Invalid facebook URL
+            equiomentHelperAdmin.TypeText("VenFace", "INVALID");
 
-            //Enter Equipment Name
-            equiomentHelperAdmin.TypeText("EqpName", "Delete Equip");
+            //Invalid Linkedln URL
+            equiomentHelperAdmin.TypeText("VenLnkl", "INVALID");
 
-            //Enter DownloadsIDName
-            equiomentHelperAdmin.Select("Type", "Check Reader");
+            //Invalid Website URL
+            equiomentHelperAdmin.TypeText("VenWeb", "INVALID");
 
-            //Enter Equipment Id
-            equiomentHelperAdmin.TypeText("EquipmentId", Id);
+            //Invalid Twiter URL
+            equiomentHelperAdmin.TypeText("VenTwt", "INVALID");
 
-            //Enter Category
-        //    equiomentHelperAdmin.Select("Category", "68");
-
-            //Enter Version
-            equiomentHelperAdmin.TypeText("Version", "Testing");
-
-            //Enter Description
-            equiomentHelperAdmin.TypeText("Description", "This is Testing Description");
-
-            //Click On First CheckBox
-       //     equiomentHelperAdmin.ClickElement("ClickOnFirstCheckBox");
-
-            //Click On First CheckBox
-      //      equiomentHelperAdmin.ClickElement("ClickOn2CheckBox");
-
-            //######################## CLICK ON SAVE BUTTON  ########################################
             // Click on Save button   
-            equiomentHelperAdmin.ClickElement("SaveBtn");
-            equiomentHelperAdmin.WaitForWorkAround(5000);
+            equiomentHelperAdmin.ClickElement("AllButtonSave");
+           
+            //Verify validation for URL displayed
+            equiomentHelperAdmin.verifyElementDisplayed("VenFaceError");
+            equiomentHelperAdmin.verifyElementDisplayed("VenTwtError");
+            equiomentHelperAdmin.verifyElementDisplayed("VenLnklError");
+            equiomentHelperAdmin.verifyElementDisplayed("VenWebError");
 
+            //Go to create shipping page
+            GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/manage_shipping_carriers");
 
-            //Enter Name in seacrh field
-            equiomentHelperAdmin.TypeText("SearchEquipmenmt", "Delete Equip");
-            equiomentHelperAdmin.WaitForWorkAround(5000);
+            //Verify title
+            VerifyTitle("Manage Shipping Carrier");
 
-            //Delete Permanently Equip
-            equiomentHelperAdmin.ClickElement("DeletePermanentlyEquip");
-            equiomentHelperAdmin.AcceptAlert();
-            equiomentHelperAdmin.WaitForWorkAround(3000);
-            equiomentHelperAdmin.VerifyPageText("Equipment deleted successfully.");
-            equiomentHelperAdmin.WaitForWorkAround(3000);
+            //Enter Invlalid URL
+            equiomentHelperAdmin.TypeText("ShippingTrack", "INVALID");
 
-
-
+            // Click on Save button   
+            equiomentHelperAdmin.ClickElement("AllButtonSave");
         }
     }
 }

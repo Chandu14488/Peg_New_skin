@@ -188,4 +188,8 @@
   <ClickSaveNoteButton><![CDATA[//form[@id='CreateNoteForm']/div[4]/a[@title='Save']]]></ClickSaveNoteButton>
   <VerifyTextNoteValidation><![CDATA[//*[@id='NoteName-error']]]></VerifyTextNoteValidation>
   <OwnerTab><![CDATA[//a[text()='Owners']]]></OwnerTab>
+
+  <OpenClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></OpenClient>
+  <PDFTab><![CDATA[//a[text()='PDFs']]]></PDFTab>
+  <Aggreement><![CDATA[//h5[text()='Card Service Agreements']]]></Aggreement>
 </Locators>

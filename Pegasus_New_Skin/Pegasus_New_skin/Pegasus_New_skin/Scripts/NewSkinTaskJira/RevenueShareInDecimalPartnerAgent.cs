@@ -43,7 +43,7 @@ namespace PegasusTests.Scripts.ClientsTests
 
 //################################# CREATE A agent   #############################################
 
-            //Click on Click On Partner Agent
+            //Click on Click On Partner Agen
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selcorp/seloffice/partners/agents");
 
             //verify title
@@ -52,10 +52,13 @@ namespace PegasusTests.Scripts.ClientsTests
 
             //ClickOnRevenueShare
             partnerAgentHelperNewSkin.ClickElement("RevenueSahrnepartneragent");
-            partnerAgentHelperNewSkin.WaitForWorkAround(4000);
+            
+           //Verify title
+            VerifyTitle("Partner Agent Codes and Revenue Shares");
 
             //Click on Revenue Share Partner Agnet
             partnerAgentHelperNewSkin.ClickElement("AddANewAgentRevenueSahre");
+            partnerAgentHelperNewSkin.WaitForWorkAround(5000);
 
             //SelectPartnerAgnetRS
             partnerAgentHelperNewSkin.SelectByText("SelectPartnerAgnetRS", "Chy Processor");

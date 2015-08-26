@@ -31,6 +31,22 @@
   <ClcikDeleteEq><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[2]/a[@title='Delete Equipment']]]></ClcikDeleteEq>
   <ClickOnEditEquip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[1]/a[@title='Edit Equipment']]]></ClickOnEditEquip>
 
-  
-  
+
+  <SectEquip><![CDATA[//table[@id='list1']/tbody/tr[3]/td/a[contains(@href,'view')]]]></SectEquip>
+  <ThEquip><![CDATA[//table[@id='list1']/tbody/tr[4]/td/a[contains(@href,'view')]]]></ThEquip>
+  <DelSec><![CDATA[//table[@id='list1']/tbody/tr[3]/td/span/a[@title='Delete Equipment']]]></DelSec>
+
+  <VenFace><![CDATA[//*[@id='VendorFacebookUrl']]]></VenFace>
+  <VenTwt><![CDATA[//*[@id='VendorTwitterUrl']]]></VenTwt>
+  <VenLnkl><![CDATA[//*[@id='VendorLinkedinUrl']]]></VenLnkl>
+  <VenWeb><![CDATA[//*[@id='VendorWebsite']]]></VenWeb>
+  <VenFaceError><![CDATA[//*[@id='VendorFacebookUrl-error']]]></VenFaceError>
+  <VenTwtError><![CDATA[//*[@id='VendorTwitterUrl-error']]]></VenTwtError>
+  <VenLnklError><![CDATA[//*[@id='VendorLinkedinUrl-error']]]></VenLnklError>
+  <VenWebError><![CDATA[//*[@id='VendorWebsite-error']]]></VenWebError>
+  <AllButtonSave><![CDATA[//button[@title='Save']]]></AllButtonSave>
+
+  <ShippingTrack><![CDATA[//*[@id='login']]]></ShippingTrack>
+
+  <ShippingTrackError><![CDATA[//*[@id='login-error']]]></ShippingTrackError>
 </Locators>

@@ -26,4 +26,16 @@
   <ClickOnNotes><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></ClickOnNotes>
   <ClickEmailNoteC><![CDATA[//*[@id='add_a_note']]]></ClickEmailNoteC>
   <vERIFYcLIENTsELECTED><![CDATA[//*[@id='EmailParentType']]]></vERIFYcLIENTsELECTED>
+
+  <ReletedTo><![CDATA[//*[@id='DocumentParentType']]]></ReletedTo>
+  <Assign><![CDATA[//*[@id='assignrecord']]]></Assign>
+  <AssignUser><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr/td[2]/a[contains(text(),'Chy')]]]></AssignUser>
+  <Chy><![CDATA[//a[contains(text(),'Chy')]]]></Chy>
+  <Info><![CDATA[//a[contains(text(),'Info')]]]></Info>
+  <DocVersion><![CDATA[//*[@id='DocumentVersion']]]></DocVersion>
+  <EditDoc><![CDATA[//table[@id='list1']/tbody/tr[2]/td/div/a[@title='Edit Document']]]></EditDoc>
+  <NewVersion><![CDATA[//a[@title='Add New Version']]]></NewVersion>
+  <DocVersion2><![CDATA[//form[@id='CreateDocumentForm']/div/div/input[@readonly='readOnly']]]></DocVersion2>
+  <DocCommnet><![CDATA[//*[@id='DocumentComment']]]></DocCommnet>
+  <DocSave><![CDATA[//*[@id='dialog_documents']/div[2]/div/div[3]/span[1]/input]]></DocSave>
 </Locators>

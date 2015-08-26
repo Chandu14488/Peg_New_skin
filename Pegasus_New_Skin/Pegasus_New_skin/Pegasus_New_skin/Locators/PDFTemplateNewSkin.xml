@@ -5,7 +5,7 @@
   <ChooseModule><![CDATA[//*[@id='PdfTemplateModule']]]></ChooseModule>#20
   <Browse><![CDATA[//*[@id='PdfTemplatePdfFile']]]></Browse>
   <ClickOnImport><![CDATA[//*[@id='importform']/table/tbody/tr[4]/td/div[3]/div/input]]></ClickOnImport>
-  <ClickOnNext><![CDATA[//*[@id='page-wrapper']/div[3]/div/div[2]/button]]></ClickOnNext>
+  <ClickOnNext><![CDATA[//button[@title='Next']]]></ClickOnNext>
   <SelectCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategory>#340
   <ClickOnSave><![CDATA[//*[@id='saveForm']]]></ClickOnSave>
   <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
@@ -64,8 +64,10 @@
   <!--API CODE INTEGRATION-->
   <ClickOnIntegrationTab><![CDATA[//span[text()='Integrations']]]></ClickOnIntegrationTab>
   <ClickCanelApi><![CDATA[//div[@class='white-bg']/div/a[@title='Cancel']]]></ClickCanelApi>
-  
-  
+
+  <Tab><![CDATA[//*[@id='tab']]]></Tab>
+  <Section><![CDATA[//*[@id='section']]]></Section>
+  <Fields><![CDATA[//*[@id='field_name']]]></Fields>
   
 </Locators>
 

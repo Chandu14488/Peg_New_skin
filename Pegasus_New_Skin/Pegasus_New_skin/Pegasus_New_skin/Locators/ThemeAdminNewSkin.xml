@@ -7,4 +7,9 @@
   <SelectFontSize><![CDATA[//*[@id='ThemeOption27Value']]]></SelectFontSize>#10px
   <CLickSaveButton><![CDATA[//div[@class='col-lg-12 no-padding']/div[2]/button[@title='Save']]]></CLickSaveButton>
 
+  <ToAddress><![CDATA[//*[@id='toaddrs']]]></ToAddress>
+  <FEmployee><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[1]/td[2]/input[2]]]></FEmployee>
+  <SEmployee><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[2]/td[2]/input[2]]]></SEmployee>
+  <TEmployee><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[3]/td[2]/input[2]]]></TEmployee>
+  <AddEmployee><![CDATA[//*[@id='submitemail']]]></AddEmployee>
 </Locators>
